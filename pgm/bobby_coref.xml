@@ -1,0 +1,4180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document>
+    <token sentence="0" id="4760" number="0">The</token>
+    <token sentence="0" id="4762" number="1">film</token>
+    <token sentence="0" id="4764" number="2">starts</token>
+    <token sentence="0" id="4766" number="3">with</token>
+    <token sentence="0" id="4768" number="4">an</token>
+    <token sentence="0" id="4770" number="5">adult</token>
+    <token sentence="0" id="4772" number="6">Bobby</token>
+    <token sentence="0" id="4774" number="7">Fischer</token>
+    <token sentence="0" id="4776" number="8">-LRB-</token>
+    <token sentence="0" id="4778" number="9">1943-2008</token>
+    <token sentence="0" id="4780" number="10">-RRB-</token>
+    <token sentence="0" id="4782" number="11">in</token>
+    <token sentence="0" id="4784" number="12">a</token>
+    <token sentence="0" id="4786" number="13">paranoid</token>
+    <token sentence="0" id="4788" number="14">state</token>
+    <token sentence="0" id="4790" number="15">,</token>
+    <token sentence="0" id="4792" number="16">worried</token>
+    <token sentence="0" id="4794" number="17">he</token>
+    <token sentence="0" id="4796" number="18">is</token>
+    <token sentence="0" id="4798" number="19">being</token>
+    <token sentence="0" id="4800" number="20">spied</token>
+    <token sentence="0" id="4802" number="21">upon</token>
+    <token sentence="0" id="4804" number="22">by</token>
+    <token sentence="0" id="4806" number="23">the</token>
+    <token sentence="0" id="4808" number="24">Soviets</token>
+    <token sentence="0" id="4810" number="25">.</token>
+    <EVENT id="4812" morphology="NONE" modality="NONE" polarity="POS" tense="PAST" pos="VERB" pred="to worry">
+        <token_anchor id="4792"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="4816" eng_dep="" sem_role="A1:Experiencer">
+        <source id="4812"/>
+        <target id="4854"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="4818">
+        <token_anchor id="4796"/>
+        <token_anchor id="4798"/>
+        <token_anchor id="4806"/>
+        <token_anchor id="4800"/>
+        <token_anchor id="4802"/>
+        <token_anchor id="4808"/>
+        <token_anchor id="4804"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="4820" eng_dep="" sem_role="A1:Experiencer">
+        <source id="4812"/>
+        <target id="4818"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="4822" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to start">
+        <token_anchor id="4764"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="4826" eng_dep="NSUBJ" sem_role="A1:Theme">
+        <source id="4822"/>
+        <target id="4846"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="4828">
+        <token_anchor id="4766"/>
+        <token_anchor id="4772"/>
+        <token_anchor id="4782"/>
+        <token_anchor id="4778"/>
+        <token_anchor id="4770"/>
+        <token_anchor id="4780"/>
+        <token_anchor id="4784"/>
+        <token_anchor id="4776"/>
+        <token_anchor id="4774"/>
+        <token_anchor id="4786"/>
+        <token_anchor id="4788"/>
+        <token_anchor id="4768"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="4830" eng_dep="" sem_role="AM-MNR:Manner">
+        <source id="4822"/>
+        <target id="4828"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="4832" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to spy">
+        <token_anchor id="4800"/>
+    </EVENT>
+    <ENTITY_MENTION id="4834">
+        <token_anchor id="4806"/>
+        <token_anchor id="4808"/>
+        <token_anchor id="4804"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="4836" eng_dep="" sem_role="A0:Experiencer">
+        <source id="4832"/>
+        <target id="4834"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="4840" eng_dep="NSUBJPASS" sem_role="A1:Stimulus">
+        <source id="4832"/>
+        <target id="4854"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="4842">
+        <token_anchor id="4802"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="4844" eng_dep="" sem_role="AM-TMP:Time">
+        <source id="4832"/>
+        <target id="4842"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="4846">
+        <token_anchor id="4762"/>
+        <token_anchor id="4760"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="4850">
+        <token_anchor id="4782"/>
+        <token_anchor id="4778"/>
+        <token_anchor id="4780"/>
+        <token_anchor id="4784"/>
+        <token_anchor id="4790"/>
+        <token_anchor id="4776"/>
+        <token_anchor id="4786"/>
+        <token_anchor id="4788"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="4852" eng_dep="NSUBJPASS">
+        <source id="4832"/>
+        <target id="4850"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="4854">
+        <token_anchor id="4794"/>
+    </ENTITY_MENTION>
+    <token sentence="1" id="4858" number="0">The</token>
+    <token sentence="1" id="4860" number="1">film</token>
+    <token sentence="1" id="4862" number="2">flashes</token>
+    <token sentence="1" id="4864" number="3">back</token>
+    <token sentence="1" id="4866" number="4">to</token>
+    <token sentence="1" id="4868" number="5">Brooklyn</token>
+    <token sentence="1" id="4870" number="6">when</token>
+    <token sentence="1" id="4872" number="7">Fischer</token>
+    <token sentence="1" id="4874" number="8">was</token>
+    <token sentence="1" id="4876" number="9">6</token>
+    <token sentence="1" id="4878" number="10">years</token>
+    <token sentence="1" id="4880" number="11">old</token>
+    <token sentence="1" id="4882" number="12">;</token>
+    <token sentence="1" id="4884" number="13">he</token>
+    <token sentence="1" id="4886" number="14">is</token>
+    <token sentence="1" id="4888" number="15">shown</token>
+    <token sentence="1" id="4890" number="16">even</token>
+    <token sentence="1" id="4892" number="17">then</token>
+    <token sentence="1" id="4894" number="18">feeling</token>
+    <token sentence="1" id="4896" number="19">a</token>
+    <token sentence="1" id="4898" number="20">general</token>
+    <token sentence="1" id="4900" number="21">sense</token>
+    <token sentence="1" id="4902" number="22">of</token>
+    <token sentence="1" id="4904" number="23">paranoia</token>
+    <token sentence="1" id="4906" number="24">.</token>
+    <TIMEX3 id="4908">
+        <token_anchor id="4876"/>
+        <token_anchor id="4878"/>
+    </TIMEX3>
+    <EVENT id="4910" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to show">
+        <token_anchor id="4888"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="4914" eng_dep="NSUBJPASS" sem_role="A1:Predicate">
+        <source id="4910"/>
+        <target id="4946"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="4916">
+        <token_anchor id="4870"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="4918" eng_dep="" sem_role="R-AM-TMP:Relation-Time">
+        <source id="4910"/>
+        <target id="4916"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="4920">
+        <token_anchor id="4892"/>
+        <token_anchor id="4890"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="4922" eng_dep="" sem_role="AM-TMP:Time">
+        <source id="4910"/>
+        <target id="4920"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="4924" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to flash">
+        <token_anchor id="4862"/>
+    </EVENT>
+    <ENTITY_MENTION id="4926">
+        <token_anchor id="4864"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="4928" eng_dep="" sem_role="AM-DIR:Direction">
+        <source id="4924"/>
+        <target id="4926"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="4932" eng_dep="NSUBJ" sem_role="A1:Theme">
+        <source id="4924"/>
+        <target id="4942"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="4934">
+        <token_anchor id="4866"/>
+        <token_anchor id="4868"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="4936" eng_dep="" sem_role="A2:Location">
+        <source id="4924"/>
+        <target id="4934"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="4938">
+        <token_anchor id="4876"/>
+        <token_anchor id="4878"/>
+        <token_anchor id="4872"/>
+        <token_anchor id="4874"/>
+        <token_anchor id="4880"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="4940" eng_dep="" sem_role="AM-TMP:Time">
+        <source id="4924"/>
+        <target id="4938"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="4942">
+        <token_anchor id="4860"/>
+        <token_anchor id="4858"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="4946">
+        <token_anchor id="4884"/>
+    </ENTITY_MENTION>
+    <token sentence="2" id="4950" number="0">His</token>
+    <token sentence="2" id="4952" number="1">mother</token>
+    <token sentence="2" id="4954" number="2">,</token>
+    <token sentence="2" id="4956" number="3">a</token>
+    <token sentence="2" id="4958" number="4">Russian</token>
+    <token sentence="2" id="4960" number="5">immigrant</token>
+    <token sentence="2" id="4962" number="6">,</token>
+    <token sentence="2" id="4964" number="7">supports</token>
+    <token sentence="2" id="4966" number="8">his</token>
+    <token sentence="2" id="4968" number="9">general</token>
+    <token sentence="2" id="4970" number="10">fears</token>
+    <token sentence="2" id="4972" number="11">,</token>
+    <token sentence="2" id="4974" number="12">telling</token>
+    <token sentence="2" id="4976" number="13">him</token>
+    <token sentence="2" id="4978" number="14">she</token>
+    <token sentence="2" id="4980" number="15">thinks</token>
+    <token sentence="2" id="4982" number="16">a</token>
+    <token sentence="2" id="4984" number="17">socialist</token>
+    <token sentence="2" id="4986" number="18">revolution</token>
+    <token sentence="2" id="4988" number="19">could</token>
+    <token sentence="2" id="4990" number="20">begin</token>
+    <token sentence="2" id="4992" number="21">in</token>
+    <token sentence="2" id="4994" number="22">the</token>
+    <token sentence="2" id="4996" number="23">U.S.</token>
+    <token sentence="2" id="4998" number="24">and</token>
+    <token sentence="2" id="5000" number="25">that</token>
+    <token sentence="2" id="5002" number="26">they</token>
+    <token sentence="2" id="5004" number="27">are</token>
+    <token sentence="2" id="5006" number="28">being</token>
+    <token sentence="2" id="5008" number="29">spied</token>
+    <token sentence="2" id="5010" number="30">upon</token>
+    <token sentence="2" id="5012" number="31">.</token>
+    <EVENT id="5014" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to think">
+        <token_anchor id="4980"/>
+    </EVENT>
+    <ENTITY_MENTION id="5016">
+        <token_anchor id="4996"/>
+        <token_anchor id="4988"/>
+        <token_anchor id="4998"/>
+        <token_anchor id="5004"/>
+        <token_anchor id="4994"/>
+        <token_anchor id="4992"/>
+        <token_anchor id="5000"/>
+        <token_anchor id="5002"/>
+        <token_anchor id="4982"/>
+        <token_anchor id="4986"/>
+        <token_anchor id="4984"/>
+        <token_anchor id="4990"/>
+        <token_anchor id="5006"/>
+        <token_anchor id="5010"/>
+        <token_anchor id="5008"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5018" eng_dep="" sem_role="A1:Theme">
+        <source id="5014"/>
+        <target id="5016"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5022" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="5014"/>
+        <target id="5090"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5024" morphology="NONE" modality="NONE" polarity="POS" pos="NOUN">
+        <token_anchor id="4986"/>
+    </EVENT>
+    <ENTITY_MENTION id="5026">
+        <token_anchor id="4984"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5028" eng_dep="" sem_role="A1:Patient">
+        <source id="5024"/>
+        <target id="5026"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5030" morphology="NONE" modality="could" polarity="POS" pos="VERB" pred="to begin">
+        <token_anchor id="4990"/>
+    </EVENT>
+    <ENTITY_MENTION id="5032">
+        <token_anchor id="4988"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5034" eng_dep="" sem_role="AM-MOD:Modal">
+        <source id="5030"/>
+        <target id="5032"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5036">
+        <token_anchor id="4996"/>
+        <token_anchor id="4998"/>
+        <token_anchor id="5004"/>
+        <token_anchor id="4994"/>
+        <token_anchor id="4992"/>
+        <token_anchor id="5000"/>
+        <token_anchor id="5002"/>
+        <token_anchor id="5006"/>
+        <token_anchor id="5010"/>
+        <token_anchor id="5008"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5038" eng_dep="" sem_role="AM-LOC:Location">
+        <source id="5030"/>
+        <target id="5036"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5042" eng_dep="NSUBJ" sem_role="A1:Theme">
+        <source id="5030"/>
+        <target id="5094"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5044" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to support">
+        <token_anchor id="4964"/>
+    </EVENT>
+    <ENTITY_MENTION id="5046">
+        <token_anchor id="4996"/>
+        <token_anchor id="4978"/>
+        <token_anchor id="4988"/>
+        <token_anchor id="4976"/>
+        <token_anchor id="4980"/>
+        <token_anchor id="4998"/>
+        <token_anchor id="5004"/>
+        <token_anchor id="4994"/>
+        <token_anchor id="4992"/>
+        <token_anchor id="5000"/>
+        <token_anchor id="5002"/>
+        <token_anchor id="4974"/>
+        <token_anchor id="4982"/>
+        <token_anchor id="4986"/>
+        <token_anchor id="4984"/>
+        <token_anchor id="4990"/>
+        <token_anchor id="5006"/>
+        <token_anchor id="5010"/>
+        <token_anchor id="5008"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5048" eng_dep="" sem_role="AM-ADV:Adverb">
+        <source id="5044"/>
+        <target id="5046"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5052" eng_dep="NSUBJ" sem_role="A0:Experiencer">
+        <source id="5044"/>
+        <target id="5078"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5056" eng_dep="DOBJ" sem_role="A1:Cause">
+        <source id="5044"/>
+        <target id="5082"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5058" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to tell">
+        <token_anchor id="4974"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5062" eng_dep="DOBJ" sem_role="A2:Recipient">
+        <source id="5058"/>
+        <target id="5086"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5064">
+        <token_anchor id="4996"/>
+        <token_anchor id="4978"/>
+        <token_anchor id="4988"/>
+        <token_anchor id="4980"/>
+        <token_anchor id="4998"/>
+        <token_anchor id="5004"/>
+        <token_anchor id="4994"/>
+        <token_anchor id="4992"/>
+        <token_anchor id="5000"/>
+        <token_anchor id="5002"/>
+        <token_anchor id="4982"/>
+        <token_anchor id="4986"/>
+        <token_anchor id="4984"/>
+        <token_anchor id="4990"/>
+        <token_anchor id="5006"/>
+        <token_anchor id="5010"/>
+        <token_anchor id="5008"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5066" eng_dep="" sem_role="A1:Topic">
+        <source id="5058"/>
+        <target id="5064"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5068" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to spy">
+        <token_anchor id="5008"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5072" eng_dep="NSUBJPASS" sem_role="A1:Stimulus">
+        <source id="5068"/>
+        <target id="5098"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5074">
+        <token_anchor id="5010"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5076" eng_dep="" sem_role="AM-TMP:Time">
+        <source id="5068"/>
+        <target id="5074"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5078">
+        <token_anchor id="4954"/>
+        <token_anchor id="4956"/>
+        <token_anchor id="4958"/>
+        <token_anchor id="4952"/>
+        <token_anchor id="4960"/>
+        <token_anchor id="4950"/>
+        <token_anchor id="4962"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5082">
+        <token_anchor id="4970"/>
+        <token_anchor id="4968"/>
+        <token_anchor id="4966"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5086">
+        <token_anchor id="4976"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5090">
+        <token_anchor id="4978"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5094">
+        <token_anchor id="4982"/>
+        <token_anchor id="4986"/>
+        <token_anchor id="4984"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5098">
+        <token_anchor id="5002"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5104" eng_dep="NSUBJ">
+        <source id="5068"/>
+        <target id="5094"/>
+    </HAS_PARTICIPANT>
+    <token sentence="3" id="5106" number="0">He</token>
+    <token sentence="3" id="5108" number="1">immerses</token>
+    <token sentence="3" id="5110" number="2">himself</token>
+    <token sentence="3" id="5112" number="3">in</token>
+    <token sentence="3" id="5114" number="4">chess</token>
+    <token sentence="3" id="5116" number="5">study</token>
+    <token sentence="3" id="5118" number="6">and</token>
+    <token sentence="3" id="5120" number="7">becomes</token>
+    <token sentence="3" id="5122" number="8">an</token>
+    <token sentence="3" id="5124" number="9">expert</token>
+    <token sentence="3" id="5126" number="10">chess</token>
+    <token sentence="3" id="5128" number="11">player</token>
+    <token sentence="3" id="5130" number="12">.</token>
+    <EVENT id="5132" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to become">
+        <token_anchor id="5120"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5136" eng_dep="" sem_role="A1:A1">
+        <source id="5132"/>
+        <target id="5156"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5138">
+        <token_anchor id="5124"/>
+        <token_anchor id="5126"/>
+        <token_anchor id="5122"/>
+        <token_anchor id="5128"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5140" eng_dep="" sem_role="A2:A2">
+        <source id="5132"/>
+        <target id="5138"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5142" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to immerse">
+        <token_anchor id="5108"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5146" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="5142"/>
+        <target id="5156"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5150" eng_dep="DOBJ" sem_role="A1:A1">
+        <source id="5142"/>
+        <target id="5160"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5152">
+        <token_anchor id="5116"/>
+        <token_anchor id="5114"/>
+        <token_anchor id="5112"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5154" eng_dep="" sem_role="AM-LOC:Location">
+        <source id="5142"/>
+        <target id="5152"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5156">
+        <token_anchor id="5106"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5160">
+        <token_anchor id="5110"/>
+    </ENTITY_MENTION>
+    <EVENT id="5164" morphology="NONE" modality="NONE" polarity="POS" pos="NOUN">
+        <token_anchor id="5128"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5168" eng_dep="NSUBJ">
+        <source id="5164"/>
+        <target id="5156"/>
+    </HAS_PARTICIPANT>
+    <token sentence="4" id="5170" number="0">His</token>
+    <token sentence="4" id="5172" number="1">mother</token>
+    <token sentence="4" id="5174" number="2">,</token>
+    <token sentence="4" id="5176" number="3">worried</token>
+    <token sentence="4" id="5178" number="4">that</token>
+    <token sentence="4" id="5180" number="5">chess</token>
+    <token sentence="4" id="5182" number="6">is</token>
+    <token sentence="4" id="5184" number="7">becoming</token>
+    <token sentence="4" id="5186" number="8">his</token>
+    <token sentence="4" id="5188" number="9">obsession</token>
+    <token sentence="4" id="5190" number="10">,</token>
+    <token sentence="4" id="5192" number="11">takes</token>
+    <token sentence="4" id="5194" number="12">him</token>
+    <token sentence="4" id="5196" number="13">to</token>
+    <token sentence="4" id="5198" number="14">an</token>
+    <token sentence="4" id="5200" number="15">adult</token>
+    <token sentence="4" id="5202" number="16">chess</token>
+    <token sentence="4" id="5204" number="17">club</token>
+    <token sentence="4" id="5206" number="18">.</token>
+    <EVENT id="5208" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to worry">
+        <token_anchor id="5176"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5212" eng_dep="NSUBJ" sem_role="A0:Cause">
+        <source id="5208"/>
+        <target id="5242"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5214">
+        <token_anchor id="5178"/>
+        <token_anchor id="5184"/>
+        <token_anchor id="5186"/>
+        <token_anchor id="5180"/>
+        <token_anchor id="5188"/>
+        <token_anchor id="5182"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5216" eng_dep="" sem_role="A1:Experiencer">
+        <source id="5208"/>
+        <target id="5214"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5218" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to become">
+        <token_anchor id="5184"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5222" eng_dep="NSUBJ" sem_role="A1:A1">
+        <source id="5218"/>
+        <target id="5246"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5226" eng_dep="DOBJ" sem_role="A2:A2">
+        <source id="5218"/>
+        <target id="5250"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5228" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to take">
+        <token_anchor id="5192"/>
+    </EVENT>
+    <ENTITY_MENTION id="5230">
+        <token_anchor id="5198"/>
+        <token_anchor id="5200"/>
+        <token_anchor id="5202"/>
+        <token_anchor id="5196"/>
+        <token_anchor id="5204"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5232" eng_dep="" sem_role="AM-DIR:Direction">
+        <source id="5228"/>
+        <target id="5230"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5236" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="5228"/>
+        <target id="5254"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5238">
+        <token_anchor id="5172"/>
+        <token_anchor id="5178"/>
+        <token_anchor id="5190"/>
+        <token_anchor id="5184"/>
+        <token_anchor id="5174"/>
+        <token_anchor id="5186"/>
+        <token_anchor id="5180"/>
+        <token_anchor id="5188"/>
+        <token_anchor id="5182"/>
+        <token_anchor id="5170"/>
+        <token_anchor id="5176"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5240" eng_dep="" sem_role="A0:Agent">
+        <source id="5228"/>
+        <target id="5238"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5242">
+        <token_anchor id="5172"/>
+        <token_anchor id="5174"/>
+        <token_anchor id="5170"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5246">
+        <token_anchor id="5180"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5250">
+        <token_anchor id="5186"/>
+        <token_anchor id="5188"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5254">
+        <token_anchor id="5194"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5260" eng_dep="NSUBJ">
+        <source id="5228"/>
+        <target id="5242"/>
+    </HAS_PARTICIPANT>
+    <token sentence="5" id="5262" number="0">He</token>
+    <token sentence="5" id="5264" number="1">impresses</token>
+    <token sentence="5" id="5266" number="2">the</token>
+    <token sentence="5" id="5268" number="3">resident</token>
+    <token sentence="5" id="5270" number="4">chess</token>
+    <token sentence="5" id="5272" number="5">master</token>
+    <token sentence="5" id="5274" number="6">and</token>
+    <token sentence="5" id="5276" number="7">is</token>
+    <token sentence="5" id="5278" number="8">accepted</token>
+    <token sentence="5" id="5280" number="9">as</token>
+    <token sentence="5" id="5282" number="10">a</token>
+    <token sentence="5" id="5284" number="11">student</token>
+    <token sentence="5" id="5286" number="12">.</token>
+    <EVENT id="5288" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to accept">
+        <token_anchor id="5278"/>
+    </EVENT>
+    <ENTITY_MENTION id="5290">
+        <token_anchor id="5282"/>
+        <token_anchor id="5284"/>
+        <token_anchor id="5280"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5292" eng_dep="" sem_role="A3:Predicate">
+        <source id="5288"/>
+        <target id="5290"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5296" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="5288"/>
+        <target id="5316"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5298" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to impress">
+        <token_anchor id="5264"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5302" eng_dep="NSUBJ" sem_role="A0:Cause">
+        <source id="5298"/>
+        <target id="5316"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5306" eng_dep="DOBJ" sem_role="A1:Experiencer">
+        <source id="5298"/>
+        <target id="5312"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5312">
+        <token_anchor id="5270"/>
+        <token_anchor id="5268"/>
+        <token_anchor id="5272"/>
+        <token_anchor id="5266"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5316">
+        <token_anchor id="5262"/>
+    </ENTITY_MENTION>
+    <token sentence="6" id="5320" number="0">His</token>
+    <token sentence="6" id="5322" number="1">coaching</token>
+    <token sentence="6" id="5324" number="2">leads</token>
+    <token sentence="6" id="5326" number="3">him</token>
+    <token sentence="6" id="5328" number="4">into</token>
+    <token sentence="6" id="5330" number="5">the</token>
+    <token sentence="6" id="5332" number="6">world</token>
+    <token sentence="6" id="5334" number="7">of</token>
+    <token sentence="6" id="5336" number="8">professional</token>
+    <token sentence="6" id="5338" number="9">chess</token>
+    <token sentence="6" id="5340" number="10">championships</token>
+    <token sentence="6" id="5342" number="11">,</token>
+    <token sentence="6" id="5344" number="12">and</token>
+    <token sentence="6" id="5346" number="13">he</token>
+    <token sentence="6" id="5348" number="14">soon</token>
+    <token sentence="6" id="5350" number="15">becomes</token>
+    <token sentence="6" id="5352" number="16">the</token>
+    <token sentence="6" id="5354" number="17">youngest</token>
+    <token sentence="6" id="5356" number="18">grandmaster</token>
+    <token sentence="6" id="5358" number="19">ever</token>
+    <token sentence="6" id="5360" number="20">.</token>
+    <TIMEX3 id="5362">
+        <token_anchor id="5348"/>
+    </TIMEX3>
+    <EVENT id="5364" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to become">
+        <token_anchor id="5350"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5368" eng_dep="NSUBJ" sem_role="A1:A1">
+        <source id="5364"/>
+        <target id="5400"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5372" eng_dep="DOBJ" sem_role="A2:A2">
+        <source id="5364"/>
+        <target id="5404"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5374">
+        <token_anchor id="5348"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5376" eng_dep="" sem_role="AM-TMP:Time">
+        <source id="5364"/>
+        <target id="5374"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5378" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to lead">
+        <token_anchor id="5324"/>
+    </EVENT>
+    <ENTITY_MENTION id="5380">
+        <token_anchor id="5338"/>
+        <token_anchor id="5336"/>
+        <token_anchor id="5334"/>
+        <token_anchor id="5340"/>
+        <token_anchor id="5328"/>
+        <token_anchor id="5332"/>
+        <token_anchor id="5330"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5382" eng_dep="" sem_role="A4:A4">
+        <source id="5378"/>
+        <target id="5380"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5386" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="5378"/>
+        <target id="5396"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5390" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="5378"/>
+        <target id="5392"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5392">
+        <token_anchor id="5322"/>
+        <token_anchor id="5320"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5396">
+        <token_anchor id="5326"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5400">
+        <token_anchor id="5346"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5404">
+        <token_anchor id="5354"/>
+        <token_anchor id="5352"/>
+        <token_anchor id="5356"/>
+        <token_anchor id="5358"/>
+    </ENTITY_MENTION>
+    <token sentence="7" id="5408" number="0">Personal</token>
+    <token sentence="7" id="5410" number="1">tensions</token>
+    <token sentence="7" id="5412" number="2">lead</token>
+    <token sentence="7" id="5414" number="3">to</token>
+    <token sentence="7" id="5416" number="4">frequent</token>
+    <token sentence="7" id="5418" number="5">outbursts</token>
+    <token sentence="7" id="5420" number="6">.</token>
+    <ENTITY_MENTION id="5428">
+        <token_anchor id="5418"/>
+        <token_anchor id="5416"/>
+        <token_anchor id="5414"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5432">
+        <token_anchor id="5408"/>
+        <token_anchor id="5410"/>
+    </ENTITY_MENTION>
+    <C-SIGNAL id="5436">
+        <token_anchor id="5412"/>
+    </C-SIGNAL>
+    <CLINK id="5438" c-signalID="5436">
+        <source id="5432"/>
+        <target id="5428"/>
+    </CLINK>
+    <token sentence="8" id="5440" number="0">He</token>
+    <token sentence="8" id="5442" number="1">enters</token>
+    <token sentence="8" id="5444" number="2">a</token>
+    <token sentence="8" id="5446" number="3">championship</token>
+    <token sentence="8" id="5448" number="4">match</token>
+    <token sentence="8" id="5450" number="5">in</token>
+    <token sentence="8" id="5452" number="6">Bulgaria</token>
+    <token sentence="8" id="5454" number="7">where</token>
+    <token sentence="8" id="5456" number="8">he</token>
+    <token sentence="8" id="5458" number="9">senses</token>
+    <token sentence="8" id="5460" number="10">that</token>
+    <token sentence="8" id="5462" number="11">they</token>
+    <token sentence="8" id="5464" number="12">are</token>
+    <token sentence="8" id="5466" number="13">trying</token>
+    <token sentence="8" id="5468" number="14">to</token>
+    <token sentence="8" id="5470" number="15">isolate</token>
+    <token sentence="8" id="5472" number="16">him</token>
+    <token sentence="8" id="5474" number="17">,</token>
+    <token sentence="8" id="5476" number="18">and</token>
+    <token sentence="8" id="5478" number="19">alleges</token>
+    <token sentence="8" id="5480" number="20">collusion</token>
+    <token sentence="8" id="5482" number="21">,</token>
+    <token sentence="8" id="5484" number="22">which</token>
+    <token sentence="8" id="5486" number="23">he</token>
+    <token sentence="8" id="5488" number="24">feels</token>
+    <token sentence="8" id="5490" number="25">makes</token>
+    <token sentence="8" id="5492" number="26">it</token>
+    <token sentence="8" id="5494" number="27">impossible</token>
+    <token sentence="8" id="5496" number="28">for</token>
+    <token sentence="8" id="5498" number="29">a</token>
+    <token sentence="8" id="5500" number="30">non-Soviet</token>
+    <token sentence="8" id="5502" number="31">player</token>
+    <token sentence="8" id="5504" number="32">to</token>
+    <token sentence="8" id="5506" number="33">win</token>
+    <token sentence="8" id="5508" number="34">the</token>
+    <token sentence="8" id="5510" number="35">championship</token>
+    <token sentence="8" id="5512" number="36">.</token>
+    <EVENT id="5514" morphology="NONE" modality="to" polarity="POS" pos="VERB" pred="to isolate">
+        <token_anchor id="5470"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5518" eng_dep="DOBJ" sem_role="A1:Patient">
+        <source id="5514"/>
+        <target id="5612"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5522" eng_dep="" sem_role="A0:Agent">
+        <source id="5514"/>
+        <target id="5608"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5524" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to enter">
+        <token_anchor id="5442"/>
+    </EVENT>
+    <ENTITY_MENTION id="5526">
+        <token_anchor id="5452"/>
+        <token_anchor id="5466"/>
+        <token_anchor id="5446"/>
+        <token_anchor id="5470"/>
+        <token_anchor id="5456"/>
+        <token_anchor id="5462"/>
+        <token_anchor id="5468"/>
+        <token_anchor id="5464"/>
+        <token_anchor id="5458"/>
+        <token_anchor id="5460"/>
+        <token_anchor id="5472"/>
+        <token_anchor id="5448"/>
+        <token_anchor id="5450"/>
+        <token_anchor id="5454"/>
+        <token_anchor id="5444"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5528" eng_dep="" sem_role="A1:Location">
+        <source id="5524"/>
+        <target id="5526"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5532" eng_dep="NSUBJ" sem_role="A0:Theme">
+        <source id="5524"/>
+        <target id="5596"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5534" morphology="NONE" modality="to" polarity="POS" pos="VERB" pred="to win">
+        <token_anchor id="5506"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5538" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="5534"/>
+        <target id="5620"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5540">
+        <token_anchor id="5498"/>
+        <token_anchor id="5502"/>
+        <token_anchor id="5500"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5542" eng_dep="" sem_role="A0:Agent">
+        <source id="5534"/>
+        <target id="5540"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5544" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to allege">
+        <token_anchor id="5478"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5548" eng_dep="" sem_role="A0:A0">
+        <source id="5544"/>
+        <target id="5596"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5550">
+        <token_anchor id="5482"/>
+        <token_anchor id="5480"/>
+        <token_anchor id="5484"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5552" eng_dep="" sem_role="A1:A1">
+        <source id="5544"/>
+        <target id="5550"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5554" morphology="NONE" modality="NONE" polarity="POS" pos="NOUN">
+        <token_anchor id="5458"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5558" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="5554"/>
+        <target id="5604"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5560">
+        <token_anchor id="5454"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5562" eng_dep="" sem_role="A1:A1">
+        <source id="5554"/>
+        <target id="5560"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5564" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to make">
+        <token_anchor id="5490"/>
+    </EVENT>
+    <ENTITY_MENTION id="5566">
+        <token_anchor id="5482"/>
+        <token_anchor id="5480"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5568" eng_dep="" sem_role="A0:A0">
+        <source id="5564"/>
+        <target id="5566"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5570">
+        <token_anchor id="5492"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5572" eng_dep="" sem_role="A1:A1">
+        <source id="5564"/>
+        <target id="5570"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5574">
+        <token_anchor id="5498"/>
+        <token_anchor id="5506"/>
+        <token_anchor id="5510"/>
+        <token_anchor id="5496"/>
+        <token_anchor id="5502"/>
+        <token_anchor id="5508"/>
+        <token_anchor id="5504"/>
+        <token_anchor id="5500"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5576" eng_dep="" sem_role="A1:A1">
+        <source id="5564"/>
+        <target id="5574"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5578">
+        <token_anchor id="5494"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5580" eng_dep="" sem_role="A2:A2">
+        <source id="5564"/>
+        <target id="5578"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5582">
+        <token_anchor id="5484"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5584" eng_dep="" sem_role="R-A0:R-A0">
+        <source id="5564"/>
+        <target id="5582"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5586" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to try">
+        <token_anchor id="5466"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5590" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="5586"/>
+        <target id="5608"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5594" eng_dep="" sem_role="A1:A1">
+        <source id="5586"/>
+        <target id="5560"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5596">
+        <token_anchor id="5440"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5600">
+        <token_anchor id="5446"/>
+        <token_anchor id="5448"/>
+        <token_anchor id="5444"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5602" eng_dep="DOBJ">
+        <source id="5524"/>
+        <target id="5600"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5604">
+        <token_anchor id="5456"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5608">
+        <token_anchor id="5462"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5612">
+        <token_anchor id="5472"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5616">
+        <token_anchor id="5482"/>
+        <token_anchor id="5480"/>
+        <token_anchor id="5484"/>
+        <token_anchor id="5486"/>
+        <token_anchor id="5488"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5618" eng_dep="NSUBJ">
+        <source id="5564"/>
+        <target id="5616"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5620">
+        <token_anchor id="5510"/>
+        <token_anchor id="5508"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5626" eng_dep="NSUBJ">
+        <source id="5544"/>
+        <target id="5608"/>
+    </HAS_PARTICIPANT>
+    <token sentence="9" id="5628" number="0">He</token>
+    <token sentence="9" id="5630" number="1">quits</token>
+    <token sentence="9" id="5632" number="2">the</token>
+    <token sentence="9" id="5634" number="3">tournament</token>
+    <token sentence="9" id="5636" number="4">and</token>
+    <token sentence="9" id="5638" number="5">ends</token>
+    <token sentence="9" id="5640" number="6">his</token>
+    <token sentence="9" id="5642" number="7">professional</token>
+    <token sentence="9" id="5644" number="8">career</token>
+    <token sentence="9" id="5646" number="9">.</token>
+    <EVENT id="5648" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to quit">
+        <token_anchor id="5630"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5652" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="5648"/>
+        <target id="5680"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5656" eng_dep="DOBJ" sem_role="A1:A1">
+        <source id="5648"/>
+        <target id="5672"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5658" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to end">
+        <token_anchor id="5638"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5662" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="5658"/>
+        <target id="5676"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5666" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="5658"/>
+        <target id="5680"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5672">
+        <token_anchor id="5632"/>
+        <token_anchor id="5634"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5676">
+        <token_anchor id="5640"/>
+        <token_anchor id="5642"/>
+        <token_anchor id="5644"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5680">
+        <token_anchor id="5628"/>
+    </ENTITY_MENTION>
+    <token sentence="10" id="5684" number="0">When</token>
+    <token sentence="10" id="5686" number="1">he</token>
+    <token sentence="10" id="5688" number="2">returns</token>
+    <token sentence="10" id="5690" number="3">to</token>
+    <token sentence="10" id="5692" number="4">the</token>
+    <token sentence="10" id="5694" number="5">U.S.</token>
+    <token sentence="10" id="5696" number="6">,</token>
+    <token sentence="10" id="5698" number="7">a</token>
+    <token sentence="10" id="5700" number="8">lawyer</token>
+    <token sentence="10" id="5702" number="9">says</token>
+    <token sentence="10" id="5704" number="10">that</token>
+    <token sentence="10" id="5706" number="11">he</token>
+    <token sentence="10" id="5708" number="12">will</token>
+    <token sentence="10" id="5710" number="13">help</token>
+    <token sentence="10" id="5712" number="14">him</token>
+    <token sentence="10" id="5714" number="15">modify</token>
+    <token sentence="10" id="5716" number="16">the</token>
+    <token sentence="10" id="5718" number="17">tournament</token>
+    <token sentence="10" id="5720" number="18">rules</token>
+    <token sentence="10" id="5722" number="19">,</token>
+    <token sentence="10" id="5724" number="20">offering</token>
+    <token sentence="10" id="5726" number="21">his</token>
+    <token sentence="10" id="5728" number="22">services</token>
+    <token sentence="10" id="5730" number="23">free</token>
+    <token sentence="10" id="5732" number="24">of</token>
+    <token sentence="10" id="5734" number="25">cost</token>
+    <token sentence="10" id="5736" number="26">to</token>
+    <token sentence="10" id="5738" number="27">give</token>
+    <token sentence="10" id="5740" number="28">Fischer</token>
+    <token sentence="10" id="5742" number="29">a</token>
+    <token sentence="10" id="5744" number="30">fair</token>
+    <token sentence="10" id="5746" number="31">chance</token>
+    <token sentence="10" id="5748" number="32">to</token>
+    <token sentence="10" id="5750" number="33">win</token>
+    <token sentence="10" id="5752" number="34">future</token>
+    <token sentence="10" id="5754" number="35">tournaments</token>
+    <token sentence="10" id="5756" number="36">.</token>
+    <EVENT id="5758" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to modify">
+        <token_anchor id="5714"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5762" eng_dep="" sem_role="A0:A0">
+        <source id="5758"/>
+        <target id="5864"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5766" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="5758"/>
+        <target id="5868"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5770" eng_dep="DOBJ" sem_role="A1:A1">
+        <source id="5758"/>
+        <target id="5872"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5772" morphology="NONE" modality="to" polarity="POS" pos="VERB" pred="to win">
+        <token_anchor id="5750"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5776" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="5772"/>
+        <target id="5888"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5780" eng_dep="" sem_role="A0:Agent">
+        <source id="5772"/>
+        <target id="5880"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5782" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to return">
+        <token_anchor id="5688"/>
+    </EVENT>
+    <ENTITY_MENTION id="5784">
+        <token_anchor id="5684"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5786" eng_dep="" sem_role="R-AM-TMP:Relation-Time">
+        <source id="5782"/>
+        <target id="5784"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5790" eng_dep="NSUBJ" sem_role="A1:Theme">
+        <source id="5782"/>
+        <target id="5856"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5792">
+        <token_anchor id="5690"/>
+        <token_anchor id="5692"/>
+        <token_anchor id="5694"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5794" eng_dep="" sem_role="A4:Location">
+        <source id="5782"/>
+        <target id="5792"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5796" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to offer">
+        <token_anchor id="5724"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5800" eng_dep="DOBJ" sem_role="A1:Predicate">
+        <source id="5796"/>
+        <target id="5876"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5804" eng_dep="" sem_role="A0:Agent">
+        <source id="5796"/>
+        <target id="5864"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5806" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to say">
+        <token_anchor id="5702"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5810" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="5806"/>
+        <target id="5860"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5812">
+        <token_anchor id="5684"/>
+        <token_anchor id="5690"/>
+        <token_anchor id="5688"/>
+        <token_anchor id="5692"/>
+        <token_anchor id="5694"/>
+        <token_anchor id="5686"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5814" eng_dep="" sem_role="AM-TMP:Time">
+        <source id="5806"/>
+        <target id="5812"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5816">
+        <token_anchor id="5704"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5818" eng_dep="" sem_role="A1:Topic">
+        <source id="5806"/>
+        <target id="5816"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5820">
+        <token_anchor id="5736"/>
+        <token_anchor id="5722"/>
+        <token_anchor id="5726"/>
+        <token_anchor id="5728"/>
+        <token_anchor id="5742"/>
+        <token_anchor id="5724"/>
+        <token_anchor id="5744"/>
+        <token_anchor id="5754"/>
+        <token_anchor id="5710"/>
+        <token_anchor id="5750"/>
+        <token_anchor id="5746"/>
+        <token_anchor id="5716"/>
+        <token_anchor id="5752"/>
+        <token_anchor id="5718"/>
+        <token_anchor id="5714"/>
+        <token_anchor id="5732"/>
+        <token_anchor id="5740"/>
+        <token_anchor id="5708"/>
+        <token_anchor id="5706"/>
+        <token_anchor id="5730"/>
+        <token_anchor id="5734"/>
+        <token_anchor id="5720"/>
+        <token_anchor id="5712"/>
+        <token_anchor id="5738"/>
+        <token_anchor id="5748"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5822" eng_dep="" sem_role="A1:Topic">
+        <source id="5806"/>
+        <target id="5820"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5824" morphology="NONE" modality="to" polarity="POS" pos="VERB" pred="to give">
+        <token_anchor id="5738"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5828" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="5824"/>
+        <target id="5884"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5832" eng_dep="IOBJ" sem_role="A2:Recipient">
+        <source id="5824"/>
+        <target id="5880"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5834" morphology="NONE" modality="will" polarity="POS" tense="FUTURE" pos="VERB" pred="to help">
+        <token_anchor id="5710"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5838" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="5834"/>
+        <target id="5864"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5842" eng_dep="" sem_role="A1:A1">
+        <source id="5834"/>
+        <target id="5868"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5844">
+        <token_anchor id="5736"/>
+        <token_anchor id="5726"/>
+        <token_anchor id="5728"/>
+        <token_anchor id="5742"/>
+        <token_anchor id="5724"/>
+        <token_anchor id="5744"/>
+        <token_anchor id="5754"/>
+        <token_anchor id="5750"/>
+        <token_anchor id="5746"/>
+        <token_anchor id="5752"/>
+        <token_anchor id="5732"/>
+        <token_anchor id="5740"/>
+        <token_anchor id="5730"/>
+        <token_anchor id="5734"/>
+        <token_anchor id="5738"/>
+        <token_anchor id="5748"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5846" eng_dep="" sem_role="AM-ADV:Adverb">
+        <source id="5834"/>
+        <target id="5844"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5848">
+        <token_anchor id="5708"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5850" eng_dep="" sem_role="AM-MOD:Modal">
+        <source id="5834"/>
+        <target id="5848"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5852">
+        <token_anchor id="5716"/>
+        <token_anchor id="5718"/>
+        <token_anchor id="5714"/>
+        <token_anchor id="5720"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5854" eng_dep="" sem_role="C-A1:C-A1">
+        <source id="5834"/>
+        <target id="5852"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5856">
+        <token_anchor id="5686"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5860">
+        <token_anchor id="5700"/>
+        <token_anchor id="5698"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5864">
+        <token_anchor id="5706"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5868">
+        <token_anchor id="5712"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5872">
+        <token_anchor id="5716"/>
+        <token_anchor id="5718"/>
+        <token_anchor id="5720"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5876">
+        <token_anchor id="5736"/>
+        <token_anchor id="5726"/>
+        <token_anchor id="5728"/>
+        <token_anchor id="5742"/>
+        <token_anchor id="5744"/>
+        <token_anchor id="5754"/>
+        <token_anchor id="5750"/>
+        <token_anchor id="5746"/>
+        <token_anchor id="5752"/>
+        <token_anchor id="5732"/>
+        <token_anchor id="5740"/>
+        <token_anchor id="5730"/>
+        <token_anchor id="5734"/>
+        <token_anchor id="5738"/>
+        <token_anchor id="5748"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5880">
+        <token_anchor id="5740"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5884">
+        <token_anchor id="5742"/>
+        <token_anchor id="5744"/>
+        <token_anchor id="5754"/>
+        <token_anchor id="5750"/>
+        <token_anchor id="5746"/>
+        <token_anchor id="5752"/>
+        <token_anchor id="5748"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5888">
+        <token_anchor id="5754"/>
+        <token_anchor id="5752"/>
+    </ENTITY_MENTION>
+    <token sentence="11" id="5892" number="0">Fischer</token>
+    <token sentence="11" id="5894" number="1">re-enters</token>
+    <token sentence="11" id="5896" number="2">the</token>
+    <token sentence="11" id="5898" number="3">world</token>
+    <token sentence="11" id="5900" number="4">of</token>
+    <token sentence="11" id="5902" number="5">professional</token>
+    <token sentence="11" id="5904" number="6">chess</token>
+    <token sentence="11" id="5906" number="7">.</token>
+    <EVENT id="5908" morphology="NONE" modality="NONE" polarity="POS" pos="NOUN">
+        <token_anchor id="5898"/>
+    </EVENT>
+    <ENTITY_MENTION id="5910">
+        <token_anchor id="5900"/>
+        <token_anchor id="5902"/>
+        <token_anchor id="5904"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5912" eng_dep="" sem_role="A1:A1">
+        <source id="5908"/>
+        <target id="5910"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="5914" morphology="NONE" modality="NONE" polarity="POS" pos="NOUN">
+        <token_anchor id="5894"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5918" eng_dep="" sem_role="A0:A0">
+        <source id="5914"/>
+        <target id="7785"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5920">
+        <token_anchor id="5900"/>
+        <token_anchor id="5902"/>
+        <token_anchor id="5896"/>
+        <token_anchor id="5898"/>
+        <token_anchor id="5904"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5922" eng_dep="" sem_role="A1:A1">
+        <source id="5914"/>
+        <target id="5920"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5924">
+        <token_anchor id="5894"/>
+        <token_anchor id="5892"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5926" eng_dep="NSUBJ">
+        <source id="5908"/>
+        <target id="5924"/>
+    </HAS_PARTICIPANT>
+    <token sentence="12" id="5928" number="0">He</token>
+    <token sentence="12" id="5930" number="1">selects</token>
+    <token sentence="12" id="5932" number="2">William</token>
+    <token sentence="12" id="5934" number="3">Lombardy</token>
+    <token sentence="12" id="5936" number="4">,</token>
+    <token sentence="12" id="5938" number="5">a</token>
+    <token sentence="12" id="5940" number="6">former</token>
+    <token sentence="12" id="5942" number="7">World</token>
+    <token sentence="12" id="5944" number="8">Junior</token>
+    <token sentence="12" id="5946" number="9">Chess</token>
+    <token sentence="12" id="5948" number="10">Champion</token>
+    <token sentence="12" id="5950" number="11">who</token>
+    <token sentence="12" id="5952" number="12">was</token>
+    <token sentence="12" id="5954" number="13">a</token>
+    <token sentence="12" id="5956" number="14">Catholic</token>
+    <token sentence="12" id="5958" number="15">priest</token>
+    <token sentence="12" id="5960" number="16">,</token>
+    <token sentence="12" id="5962" number="17">as</token>
+    <token sentence="12" id="5964" number="18">his</token>
+    <token sentence="12" id="5966" number="19">second</token>
+    <token sentence="12" id="5968" number="20">.</token>
+    <TIMEX3 id="5970">
+        <token_anchor id="5964"/>
+        <token_anchor id="5966"/>
+    </TIMEX3>
+    <EVENT id="5972" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to select">
+        <token_anchor id="5930"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="5976" eng_dep="" sem_role="A1:Theme">
+        <source id="5972"/>
+        <target id="7859"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="5980" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="5972"/>
+        <target id="5982"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="5982">
+        <token_anchor id="5928"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="5986">
+        <token_anchor id="5946"/>
+        <token_anchor id="5950"/>
+        <token_anchor id="5934"/>
+        <token_anchor id="5958"/>
+        <token_anchor id="5936"/>
+        <token_anchor id="5952"/>
+        <token_anchor id="5944"/>
+        <token_anchor id="5940"/>
+        <token_anchor id="5960"/>
+        <token_anchor id="5954"/>
+        <token_anchor id="5948"/>
+        <token_anchor id="5932"/>
+        <token_anchor id="5938"/>
+        <token_anchor id="5942"/>
+        <token_anchor id="5956"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="5988" eng_dep="DOBJ">
+        <source id="5972"/>
+        <target id="5986"/>
+    </HAS_PARTICIPANT>
+    <token sentence="13" id="5990" number="0">Lombardy</token>
+    <token sentence="13" id="5992" number="1">tries</token>
+    <token sentence="13" id="5994" number="2">to</token>
+    <token sentence="13" id="5996" number="3">calm</token>
+    <token sentence="13" id="5998" number="4">Fischer</token>
+    <token sentence="13" id="6000" number="5">'s</token>
+    <token sentence="13" id="6002" number="6">excessive</token>
+    <token sentence="13" id="6004" number="7">demands</token>
+    <token sentence="13" id="6006" number="8">,</token>
+    <token sentence="13" id="6008" number="9">which</token>
+    <token sentence="13" id="6010" number="10">leads</token>
+    <token sentence="13" id="6012" number="11">Fischer</token>
+    <token sentence="13" id="6014" number="12">back</token>
+    <token sentence="13" id="6016" number="13">to</token>
+    <token sentence="13" id="6018" number="14">winning</token>
+    <token sentence="13" id="6020" number="15">tournaments</token>
+    <token sentence="13" id="6022" number="16">.</token>
+    <EVENT id="6024" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to try">
+        <token_anchor id="5992"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6028" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="6024"/>
+        <target id="6064"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6030">
+        <token_anchor id="6004"/>
+        <token_anchor id="5994"/>
+        <token_anchor id="6020"/>
+        <token_anchor id="6014"/>
+        <token_anchor id="6006"/>
+        <token_anchor id="5998"/>
+        <token_anchor id="6000"/>
+        <token_anchor id="6016"/>
+        <token_anchor id="5996"/>
+        <token_anchor id="6008"/>
+        <token_anchor id="6002"/>
+        <token_anchor id="6018"/>
+        <token_anchor id="6010"/>
+        <token_anchor id="6012"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6032" eng_dep="" sem_role="A1:A1">
+        <source id="6024"/>
+        <target id="6030"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6034" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to lead">
+        <token_anchor id="6010"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6038" eng_dep="NSUBJ" sem_role="R-A0:Relation-Agent">
+        <source id="6034"/>
+        <target id="6072"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6042" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="6034"/>
+        <target id="6076"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6044">
+        <token_anchor id="6004"/>
+        <token_anchor id="6006"/>
+        <token_anchor id="5998"/>
+        <token_anchor id="6000"/>
+        <token_anchor id="6002"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6046" eng_dep="" sem_role="A0:Agent">
+        <source id="6034"/>
+        <target id="6044"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6048" morphology="NONE" modality="to" polarity="POS" pos="VERB" pred="to calm">
+        <token_anchor id="5996"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6052" eng_dep="" sem_role="A0:Cause">
+        <source id="6048"/>
+        <target id="6064"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6056" eng_dep="DOBJ" sem_role="A1:Experiencer">
+        <source id="6048"/>
+        <target id="6068"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6058" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to win">
+        <token_anchor id="6018"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6062" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="6058"/>
+        <target id="6080"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6064">
+        <token_anchor id="5990"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6068">
+        <token_anchor id="6004"/>
+        <token_anchor id="6020"/>
+        <token_anchor id="6014"/>
+        <token_anchor id="6006"/>
+        <token_anchor id="5998"/>
+        <token_anchor id="6000"/>
+        <token_anchor id="6016"/>
+        <token_anchor id="6008"/>
+        <token_anchor id="6002"/>
+        <token_anchor id="6018"/>
+        <token_anchor id="6010"/>
+        <token_anchor id="6012"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6072">
+        <token_anchor id="6008"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6076">
+        <token_anchor id="6012"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6080">
+        <token_anchor id="6020"/>
+    </ENTITY_MENTION>
+    <token sentence="14" id="6084" number="0">He</token>
+    <token sentence="14" id="6086" number="1">overcomes</token>
+    <token sentence="14" id="6088" number="2">most</token>
+    <token sentence="14" id="6090" number="3">of</token>
+    <token sentence="14" id="6092" number="4">the</token>
+    <token sentence="14" id="6094" number="5">grandmasters</token>
+    <token sentence="14" id="6096" number="6">across</token>
+    <token sentence="14" id="6098" number="7">the</token>
+    <token sentence="14" id="6100" number="8">world</token>
+    <token sentence="14" id="6102" number="9">and</token>
+    <token sentence="14" id="6104" number="10">gets</token>
+    <token sentence="14" id="6106" number="11">close</token>
+    <token sentence="14" id="6108" number="12">to</token>
+    <token sentence="14" id="6110" number="13">the</token>
+    <token sentence="14" id="6112" number="14">world</token>
+    <token sentence="14" id="6114" number="15">championship</token>
+    <token sentence="14" id="6116" number="16">,</token>
+    <token sentence="14" id="6118" number="17">becoming</token>
+    <token sentence="14" id="6120" number="18">a</token>
+    <token sentence="14" id="6122" number="19">celebrity</token>
+    <token sentence="14" id="6124" number="20">with</token>
+    <token sentence="14" id="6126" number="21">the</token>
+    <token sentence="14" id="6128" number="22">American</token>
+    <token sentence="14" id="6130" number="23">public</token>
+    <token sentence="14" id="6132" number="24">,</token>
+    <token sentence="14" id="6134" number="25">which</token>
+    <token sentence="14" id="6136" number="26">makes</token>
+    <token sentence="14" id="6138" number="27">him</token>
+    <token sentence="14" id="6140" number="28">overconfident</token>
+    <token sentence="14" id="6142" number="29">.</token>
+    <EVENT id="6144" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to overcome">
+        <token_anchor id="6086"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6148" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="6144"/>
+        <target id="6216"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6150">
+        <token_anchor id="6088"/>
+        <token_anchor id="6100"/>
+        <token_anchor id="6092"/>
+        <token_anchor id="6094"/>
+        <token_anchor id="6096"/>
+        <token_anchor id="6098"/>
+        <token_anchor id="6090"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6152" eng_dep="" sem_role="AM-ADV:Adverb">
+        <source id="6144"/>
+        <target id="6150"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6156" eng_dep="" sem_role="AM-ADV:Adverb">
+        <source id="6144"/>
+        <target id="6182"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6158" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to become">
+        <token_anchor id="6118"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6162" eng_dep="" sem_role="A1:A1">
+        <source id="6158"/>
+        <target id="6216"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6166" eng_dep="" sem_role="A2:A2">
+        <source id="6158"/>
+        <target id="8059"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6168">
+        <token_anchor id="6124"/>
+        <token_anchor id="6132"/>
+        <token_anchor id="6138"/>
+        <token_anchor id="6140"/>
+        <token_anchor id="6130"/>
+        <token_anchor id="6126"/>
+        <token_anchor id="6128"/>
+        <token_anchor id="6136"/>
+        <token_anchor id="6134"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6170" eng_dep="" sem_role="AM-MNR:Manner">
+        <source id="6158"/>
+        <target id="6168"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6172" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to get">
+        <token_anchor id="6104"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6176" eng_dep="NSUBJ" sem_role="A1:A1">
+        <source id="6172"/>
+        <target id="6216"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6178">
+        <token_anchor id="6110"/>
+        <token_anchor id="6108"/>
+        <token_anchor id="6114"/>
+        <token_anchor id="6112"/>
+        <token_anchor id="6106"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6180" eng_dep="" sem_role="A2:A2">
+        <source id="6172"/>
+        <target id="6178"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6182">
+        <token_anchor id="6124"/>
+        <token_anchor id="6132"/>
+        <token_anchor id="6138"/>
+        <token_anchor id="6140"/>
+        <token_anchor id="6130"/>
+        <token_anchor id="6118"/>
+        <token_anchor id="6122"/>
+        <token_anchor id="6126"/>
+        <token_anchor id="6128"/>
+        <token_anchor id="6136"/>
+        <token_anchor id="6120"/>
+        <token_anchor id="6134"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6184" eng_dep="" sem_role="AM-ADV:Adverb">
+        <source id="6172"/>
+        <target id="6182"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6186" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to make">
+        <token_anchor id="6136"/>
+    </EVENT>
+    <ENTITY_MENTION id="6188">
+        <token_anchor id="6132"/>
+        <token_anchor id="6130"/>
+        <token_anchor id="6126"/>
+        <token_anchor id="6128"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6190" eng_dep="" sem_role="A0:A0">
+        <source id="6186"/>
+        <target id="6188"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6192">
+        <token_anchor id="6138"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6194" eng_dep="" sem_role="A1:A1">
+        <source id="6186"/>
+        <target id="6192"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6196">
+        <token_anchor id="6140"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6198" eng_dep="" sem_role="A2:A2">
+        <source id="6186"/>
+        <target id="6196"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6202" eng_dep="NSUBJ" sem_role="R-A0:R-A0">
+        <source id="6186"/>
+        <target id="6212"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6208">
+        <token_anchor id="6124"/>
+        <token_anchor id="6132"/>
+        <token_anchor id="6138"/>
+        <token_anchor id="6140"/>
+        <token_anchor id="6130"/>
+        <token_anchor id="6122"/>
+        <token_anchor id="6126"/>
+        <token_anchor id="6128"/>
+        <token_anchor id="6136"/>
+        <token_anchor id="6120"/>
+        <token_anchor id="6134"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6210" eng_dep="DOBJ">
+        <source id="6158"/>
+        <target id="6208"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6212">
+        <token_anchor id="6134"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6216">
+        <token_anchor id="6084"/>
+    </ENTITY_MENTION>
+    <token sentence="15" id="6220" number="0">He</token>
+    <token sentence="15" id="6222" number="1">then</token>
+    <token sentence="15" id="6224" number="2">loses</token>
+    <token sentence="15" id="6226" number="3">to</token>
+    <token sentence="15" id="6228" number="4">Boris</token>
+    <token sentence="15" id="6230" number="5">Spassky</token>
+    <token sentence="15" id="6232" number="6">,</token>
+    <token sentence="15" id="6234" number="7">the</token>
+    <token sentence="15" id="6236" number="8">current</token>
+    <token sentence="15" id="6238" number="9">world</token>
+    <token sentence="15" id="6240" number="10">champion</token>
+    <token sentence="15" id="6242" number="11">.</token>
+    <TIMEX3 id="6244">
+        <token_anchor id="6236"/>
+    </TIMEX3>
+    <EVENT id="6246" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to lose">
+        <token_anchor id="6224"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6250" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="6246"/>
+        <target id="6260"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6252">
+        <token_anchor id="6226"/>
+        <token_anchor id="6230"/>
+        <token_anchor id="6236"/>
+        <token_anchor id="6240"/>
+        <token_anchor id="6238"/>
+        <token_anchor id="6232"/>
+        <token_anchor id="6234"/>
+        <token_anchor id="6228"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6254" eng_dep="" sem_role="A2:A2">
+        <source id="6246"/>
+        <target id="6252"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6256">
+        <token_anchor id="6222"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6258" eng_dep="" sem_role="AM-TMP:Time">
+        <source id="6246"/>
+        <target id="6256"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6260">
+        <token_anchor id="6220"/>
+    </ENTITY_MENTION>
+    <token sentence="16" id="6264" number="0">It</token>
+    <token sentence="16" id="6266" number="1">is</token>
+    <token sentence="16" id="6268" number="2">the</token>
+    <token sentence="16" id="6270" number="3">height</token>
+    <token sentence="16" id="6272" number="4">of</token>
+    <token sentence="16" id="6274" number="5">the</token>
+    <token sentence="16" id="6276" number="6">Cold</token>
+    <token sentence="16" id="6278" number="7">War</token>
+    <token sentence="16" id="6280" number="8">era</token>
+    <token sentence="16" id="6282" number="9">,</token>
+    <token sentence="16" id="6284" number="10">and</token>
+    <token sentence="16" id="6286" number="11">the</token>
+    <token sentence="16" id="6288" number="12">U.S.</token>
+    <token sentence="16" id="6290" number="13">is</token>
+    <token sentence="16" id="6292" number="14">desperate</token>
+    <token sentence="16" id="6294" number="15">to</token>
+    <token sentence="16" id="6296" number="16">challenge</token>
+    <token sentence="16" id="6298" number="17">Russian</token>
+    <token sentence="16" id="6300" number="18">dominance</token>
+    <token sentence="16" id="6302" number="19">in</token>
+    <token sentence="16" id="6304" number="20">the</token>
+    <token sentence="16" id="6306" number="21">world</token>
+    <token sentence="16" id="6308" number="22">of</token>
+    <token sentence="16" id="6310" number="23">chess</token>
+    <token sentence="16" id="6312" number="24">.</token>
+    <EVENT id="6314" morphology="NONE" modality="to" polarity="POS" pos="VERB" pred="to challenge">
+        <token_anchor id="6296"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6318" eng_dep="" sem_role="A0:A0">
+        <source id="6314"/>
+        <target id="7675"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6320">
+        <token_anchor id="6306"/>
+        <token_anchor id="6298"/>
+        <token_anchor id="6302"/>
+        <token_anchor id="6308"/>
+        <token_anchor id="6300"/>
+        <token_anchor id="6310"/>
+        <token_anchor id="6304"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6322" eng_dep="" sem_role="A1:A1">
+        <source id="6314"/>
+        <target id="6320"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6324">
+        <token_anchor id="6298"/>
+        <token_anchor id="6300"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6326" eng_dep="DOBJ">
+        <source id="6314"/>
+        <target id="6324"/>
+    </HAS_PARTICIPANT>
+    <token sentence="17" id="6328" number="0">The</token>
+    <token sentence="17" id="6330" number="1">White</token>
+    <token sentence="17" id="6332" number="2">House</token>
+    <token sentence="17" id="6334" number="3">closely</token>
+    <token sentence="17" id="6336" number="4">monitors</token>
+    <token sentence="17" id="6338" number="5">his</token>
+    <token sentence="17" id="6340" number="6">progress</token>
+    <token sentence="17" id="6342" number="7">.</token>
+    <EVENT id="6344" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to monitor">
+        <token_anchor id="6336"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6348" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="6344"/>
+        <target id="6368"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6352" eng_dep="DOBJ" sem_role="A1:A1">
+        <source id="6344"/>
+        <target id="6372"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6354">
+        <token_anchor id="6334"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6356" eng_dep="" sem_role="AM-MNR:Manner">
+        <source id="6344"/>
+        <target id="6354"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6358" morphology="NONE" modality="NONE" polarity="POS" pos="NOUN">
+        <token_anchor id="6340"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6362" eng_dep="" sem_role="A1:A1">
+        <source id="6358"/>
+        <target id="6368"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6364">
+        <token_anchor id="6338"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6366" eng_dep="" sem_role="A1:A1">
+        <source id="6358"/>
+        <target id="6364"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6368">
+        <token_anchor id="6328"/>
+        <token_anchor id="6332"/>
+        <token_anchor id="6330"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6372">
+        <token_anchor id="6338"/>
+        <token_anchor id="6340"/>
+    </ENTITY_MENTION>
+    <token sentence="18" id="6376" number="0">The</token>
+    <token sentence="18" id="6378" number="1">pressure</token>
+    <token sentence="18" id="6380" number="2">to</token>
+    <token sentence="18" id="6382" number="3">win</token>
+    <token sentence="18" id="6384" number="4">every</token>
+    <token sentence="18" id="6386" number="5">game</token>
+    <token sentence="18" id="6388" number="6">drives</token>
+    <token sentence="18" id="6390" number="7">Fischer</token>
+    <token sentence="18" id="6392" number="8">towards</token>
+    <token sentence="18" id="6394" number="9">psychosis</token>
+    <token sentence="18" id="6396" number="10">.</token>
+    <EVENT id="6398" morphology="NONE" modality="to" polarity="POS" pos="VERB" pred="to win">
+        <token_anchor id="6382"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6402" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="6398"/>
+        <target id="6422"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6404" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to drive">
+        <token_anchor id="6388"/>
+    </EVENT>
+    <ENTITY_MENTION id="6406">
+        <token_anchor id="6394"/>
+        <token_anchor id="6392"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6408" eng_dep="" sem_role="A2:A2">
+        <source id="6404"/>
+        <target id="6406"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6412" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="6404"/>
+        <target id="6426"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6416" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="6404"/>
+        <target id="6418"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6418">
+        <token_anchor id="6386"/>
+        <token_anchor id="6382"/>
+        <token_anchor id="6384"/>
+        <token_anchor id="6380"/>
+        <token_anchor id="6378"/>
+        <token_anchor id="6376"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6422">
+        <token_anchor id="6386"/>
+        <token_anchor id="6384"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6426">
+        <token_anchor id="6390"/>
+    </ENTITY_MENTION>
+    <token sentence="19" id="6430" number="0">His</token>
+    <token sentence="19" id="6432" number="1">sister</token>
+    <token sentence="19" id="6434" number="2">suspects</token>
+    <token sentence="19" id="6436" number="3">that</token>
+    <token sentence="19" id="6438" number="4">he</token>
+    <token sentence="19" id="6440" number="5">is</token>
+    <token sentence="19" id="6442" number="6">under</token>
+    <token sentence="19" id="6444" number="7">severe</token>
+    <token sentence="19" id="6446" number="8">mental</token>
+    <token sentence="19" id="6448" number="9">stress</token>
+    <token sentence="19" id="6450" number="10">,</token>
+    <token sentence="19" id="6452" number="11">fearing</token>
+    <token sentence="19" id="6454" number="12">for</token>
+    <token sentence="19" id="6456" number="13">his</token>
+    <token sentence="19" id="6458" number="14">life</token>
+    <token sentence="19" id="6460" number="15">because</token>
+    <token sentence="19" id="6462" number="16">he</token>
+    <token sentence="19" id="6464" number="17">might</token>
+    <token sentence="19" id="6466" number="18">defeat</token>
+    <token sentence="19" id="6468" number="19">Spassky</token>
+    <token sentence="19" id="6470" number="20">.</token>
+    <EVENT id="6472" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to suspect">
+        <token_anchor id="6434"/>
+    </EVENT>
+    <ENTITY_MENTION id="6474">
+        <token_anchor id="6458"/>
+        <token_anchor id="6436"/>
+        <token_anchor id="6448"/>
+        <token_anchor id="6456"/>
+        <token_anchor id="6452"/>
+        <token_anchor id="6462"/>
+        <token_anchor id="6446"/>
+        <token_anchor id="6444"/>
+        <token_anchor id="6454"/>
+        <token_anchor id="6468"/>
+        <token_anchor id="6438"/>
+        <token_anchor id="6464"/>
+        <token_anchor id="6460"/>
+        <token_anchor id="6440"/>
+        <token_anchor id="6450"/>
+        <token_anchor id="6442"/>
+        <token_anchor id="6466"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6476" eng_dep="" sem_role="A1:Theme">
+        <source id="6472"/>
+        <target id="6474"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6480" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="6472"/>
+        <target id="6502"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6482" morphology="NONE" modality="might" polarity="POS" pos="VERB" pred="to defeat">
+        <token_anchor id="6466"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6486" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="6482"/>
+        <target id="6506"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6490" eng_dep="DOBJ" sem_role="A1:A1">
+        <source id="6482"/>
+        <target id="6510"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6492">
+        <token_anchor id="6464"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6494" eng_dep="" sem_role="AM-MOD:Modal">
+        <source id="6482"/>
+        <target id="6492"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6496" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to fear">
+        <token_anchor id="6452"/>
+    </EVENT>
+    <ENTITY_MENTION id="6498">
+        <token_anchor id="6458"/>
+        <token_anchor id="6456"/>
+        <token_anchor id="6454"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6500" eng_dep="" sem_role="A1:Cause">
+        <source id="6496"/>
+        <target id="6498"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6502">
+        <token_anchor id="6432"/>
+        <token_anchor id="6430"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6506">
+        <token_anchor id="6462"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6510">
+        <token_anchor id="6468"/>
+    </ENTITY_MENTION>
+    <C-SIGNAL id="6514">
+        <token_anchor id="6460"/>
+    </C-SIGNAL>
+    <CLINK id="6516" c-signalID="6514">
+        <source id="6482"/>
+        <target id="6496"/>
+    </CLINK>
+    <token sentence="20" id="6518" number="0">Reporters</token>
+    <token sentence="20" id="6520" number="1">and</token>
+    <token sentence="20" id="6522" number="2">fans</token>
+    <token sentence="20" id="6524" number="3">all</token>
+    <token sentence="20" id="6526" number="4">assemble</token>
+    <token sentence="20" id="6528" number="5">at</token>
+    <token sentence="20" id="6530" number="6">Reykjavík</token>
+    <token sentence="20" id="6532" number="7">,</token>
+    <token sentence="20" id="6534" number="8">Iceland</token>
+    <token sentence="20" id="6536" number="9">to</token>
+    <token sentence="20" id="6538" number="10">witness</token>
+    <token sentence="20" id="6540" number="11">the</token>
+    <token sentence="20" id="6542" number="12">historic</token>
+    <token sentence="20" id="6544" number="13">World</token>
+    <token sentence="20" id="6546" number="14">Chess</token>
+    <token sentence="20" id="6548" number="15">Championship</token>
+    <token sentence="20" id="6550" number="16">1972</token>
+    <token sentence="20" id="6552" number="17">match</token>
+    <token sentence="20" id="6554" number="18">between</token>
+    <token sentence="20" id="6556" number="19">Fischer</token>
+    <token sentence="20" id="6558" number="20">and</token>
+    <token sentence="20" id="6560" number="21">Spassky</token>
+    <token sentence="20" id="6562" number="22">.</token>
+    <EVENT id="6564" morphology="NONE" modality="to" polarity="POS" pos="VERB" pred="to witness">
+        <token_anchor id="6538"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6568" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="6564"/>
+        <target id="6570"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6570">
+        <token_anchor id="6540"/>
+        <token_anchor id="6542"/>
+        <token_anchor id="6544"/>
+        <token_anchor id="6552"/>
+        <token_anchor id="6558"/>
+        <token_anchor id="6546"/>
+        <token_anchor id="6560"/>
+        <token_anchor id="6554"/>
+        <token_anchor id="6548"/>
+        <token_anchor id="6550"/>
+        <token_anchor id="6556"/>
+    </ENTITY_MENTION>
+    <token sentence="21" id="6574" number="0">Fischer</token>
+    <token sentence="21" id="6576" number="1">is</token>
+    <token sentence="21" id="6578" number="2">easily</token>
+    <token sentence="21" id="6580" number="3">distracted</token>
+    <token sentence="21" id="6582" number="4">by</token>
+    <token sentence="21" id="6584" number="5">small</token>
+    <token sentence="21" id="6586" number="6">noises</token>
+    <token sentence="21" id="6588" number="7">like</token>
+    <token sentence="21" id="6590" number="8">someone</token>
+    <token sentence="21" id="6592" number="9">coughing</token>
+    <token sentence="21" id="6594" number="10">in</token>
+    <token sentence="21" id="6596" number="11">the</token>
+    <token sentence="21" id="6598" number="12">audience</token>
+    <token sentence="21" id="6600" number="13">,</token>
+    <token sentence="21" id="6602" number="14">rolling</token>
+    <token sentence="21" id="6604" number="15">cameras</token>
+    <token sentence="21" id="6606" number="16">,</token>
+    <token sentence="21" id="6608" number="17">or</token>
+    <token sentence="21" id="6610" number="18">the</token>
+    <token sentence="21" id="6612" number="19">pawns</token>
+    <token sentence="21" id="6614" number="20">on</token>
+    <token sentence="21" id="6616" number="21">the</token>
+    <token sentence="21" id="6618" number="22">chess</token>
+    <token sentence="21" id="6620" number="23">board</token>
+    <token sentence="21" id="6622" number="24">,</token>
+    <token sentence="21" id="6624" number="25">which</token>
+    <token sentence="21" id="6626" number="26">leads</token>
+    <token sentence="21" id="6628" number="27">him</token>
+    <token sentence="21" id="6630" number="28">to</token>
+    <token sentence="21" id="6632" number="29">make</token>
+    <token sentence="21" id="6634" number="30">extreme</token>
+    <token sentence="21" id="6636" number="31">demands</token>
+    <token sentence="21" id="6638" number="32">for</token>
+    <token sentence="21" id="6640" number="33">silence</token>
+    <token sentence="21" id="6642" number="34">and</token>
+    <token sentence="21" id="6644" number="35">fewer</token>
+    <token sentence="21" id="6646" number="36">distractions</token>
+    <token sentence="21" id="6648" number="37">.</token>
+    <EVENT id="6650" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to distract">
+        <token_anchor id="6580"/>
+    </EVENT>
+    <ENTITY_MENTION id="6652">
+        <token_anchor id="6594"/>
+        <token_anchor id="6612"/>
+        <token_anchor id="6608"/>
+        <token_anchor id="6646"/>
+        <token_anchor id="6590"/>
+        <token_anchor id="6588"/>
+        <token_anchor id="6614"/>
+        <token_anchor id="6610"/>
+        <token_anchor id="6596"/>
+        <token_anchor id="6638"/>
+        <token_anchor id="6620"/>
+        <token_anchor id="6618"/>
+        <token_anchor id="6600"/>
+        <token_anchor id="6582"/>
+        <token_anchor id="6626"/>
+        <token_anchor id="6606"/>
+        <token_anchor id="6640"/>
+        <token_anchor id="6584"/>
+        <token_anchor id="6630"/>
+        <token_anchor id="6592"/>
+        <token_anchor id="6628"/>
+        <token_anchor id="6586"/>
+        <token_anchor id="6616"/>
+        <token_anchor id="6644"/>
+        <token_anchor id="6622"/>
+        <token_anchor id="6632"/>
+        <token_anchor id="6642"/>
+        <token_anchor id="6634"/>
+        <token_anchor id="6604"/>
+        <token_anchor id="6624"/>
+        <token_anchor id="6602"/>
+        <token_anchor id="6636"/>
+        <token_anchor id="6598"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6654" eng_dep="" sem_role="A0:Cause">
+        <source id="6650"/>
+        <target id="6652"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6656">
+        <token_anchor id="6578"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6658" eng_dep="" sem_role="AM-MNR:Manner">
+        <source id="6650"/>
+        <target id="6656"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6662" eng_dep="NSUBJPASS" sem_role="A1:Experiencer">
+        <source id="6650"/>
+        <target id="6696"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6664" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to lead">
+        <token_anchor id="6626"/>
+    </EVENT>
+    <ENTITY_MENTION id="6666">
+        <token_anchor id="6620"/>
+        <token_anchor id="6618"/>
+        <token_anchor id="6616"/>
+        <token_anchor id="6622"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6668" eng_dep="" sem_role="A0:A0">
+        <source id="6664"/>
+        <target id="6666"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6672" eng_dep="" sem_role="A1:A1">
+        <source id="6664"/>
+        <target id="6704"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6674">
+        <token_anchor id="6646"/>
+        <token_anchor id="6638"/>
+        <token_anchor id="6640"/>
+        <token_anchor id="6630"/>
+        <token_anchor id="6644"/>
+        <token_anchor id="6632"/>
+        <token_anchor id="6642"/>
+        <token_anchor id="6634"/>
+        <token_anchor id="6636"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6676" eng_dep="" sem_role="A2:A2">
+        <source id="6664"/>
+        <target id="6674"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6680" eng_dep="NSUBJ" sem_role="R-A0:R-A0">
+        <source id="6664"/>
+        <target id="6700"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6682" morphology="NONE" modality="to" polarity="POS" pos="VERB" pred="to make">
+        <token_anchor id="6632"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6686" eng_dep="DOBJ" sem_role="A1:Product">
+        <source id="6682"/>
+        <target id="6708"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6690" eng_dep="" sem_role="A0:Agent">
+        <source id="6682"/>
+        <target id="6666"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6694" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="6682"/>
+        <target id="6704"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6696">
+        <token_anchor id="6574"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6700">
+        <token_anchor id="6624"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6704">
+        <token_anchor id="6628"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6708">
+        <token_anchor id="6646"/>
+        <token_anchor id="6638"/>
+        <token_anchor id="6640"/>
+        <token_anchor id="6644"/>
+        <token_anchor id="6642"/>
+        <token_anchor id="6634"/>
+        <token_anchor id="6636"/>
+    </ENTITY_MENTION>
+    <EVENT id="6712" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to roll">
+        <token_anchor id="6602"/>
+    </EVENT>
+    <token sentence="22" id="6714" number="0">Spassky</token>
+    <token sentence="22" id="6716" number="1">concedes</token>
+    <token sentence="22" id="6718" number="2">to</token>
+    <token sentence="22" id="6720" number="3">all</token>
+    <token sentence="22" id="6722" number="4">his</token>
+    <token sentence="22" id="6724" number="5">demands</token>
+    <token sentence="22" id="6726" number="6">to</token>
+    <token sentence="22" id="6728" number="7">make</token>
+    <token sentence="22" id="6730" number="8">sure</token>
+    <token sentence="22" id="6732" number="9">the</token>
+    <token sentence="22" id="6734" number="10">match</token>
+    <token sentence="22" id="6736" number="11">continues</token>
+    <token sentence="22" id="6738" number="12">so</token>
+    <token sentence="22" id="6740" number="13">that</token>
+    <token sentence="22" id="6742" number="14">he</token>
+    <token sentence="22" id="6744" number="15">can</token>
+    <token sentence="22" id="6746" number="16">win</token>
+    <token sentence="22" id="6748" number="17">the</token>
+    <token sentence="22" id="6750" number="18">24-game</token>
+    <token sentence="22" id="6752" number="19">match</token>
+    <token sentence="22" id="6754" number="20">in</token>
+    <token sentence="22" id="6756" number="21">the</token>
+    <token sentence="22" id="6758" number="22">right</token>
+    <token sentence="22" id="6760" number="23">spirit</token>
+    <token sentence="22" id="6762" number="24">.</token>
+    <EVENT id="6764" morphology="NONE" modality="can" polarity="POS" pos="VERB" pred="to win">
+        <token_anchor id="6746"/>
+    </EVENT>
+    <ENTITY_MENTION id="6766">
+        <token_anchor id="6744"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6768" eng_dep="" sem_role="AM-MOD:Modal">
+        <source id="6764"/>
+        <target id="6766"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6770">
+        <token_anchor id="6758"/>
+        <token_anchor id="6756"/>
+        <token_anchor id="6754"/>
+        <token_anchor id="6760"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6772" eng_dep="" sem_role="AM-LOC:Location">
+        <source id="6764"/>
+        <target id="6770"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6776" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="6764"/>
+        <target id="6828"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6780" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="6764"/>
+        <target id="6824"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6782" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to concede">
+        <token_anchor id="6716"/>
+    </EVENT>
+    <ENTITY_MENTION id="6784">
+        <token_anchor id="6758"/>
+        <token_anchor id="6750"/>
+        <token_anchor id="6746"/>
+        <token_anchor id="6756"/>
+        <token_anchor id="6728"/>
+        <token_anchor id="6732"/>
+        <token_anchor id="6740"/>
+        <token_anchor id="6748"/>
+        <token_anchor id="6734"/>
+        <token_anchor id="6738"/>
+        <token_anchor id="6752"/>
+        <token_anchor id="6736"/>
+        <token_anchor id="6742"/>
+        <token_anchor id="6754"/>
+        <token_anchor id="6744"/>
+        <token_anchor id="6726"/>
+        <token_anchor id="6730"/>
+        <token_anchor id="6760"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6786" eng_dep="" sem_role="AM-PNC:Purpose">
+        <source id="6782"/>
+        <target id="6784"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6788">
+        <token_anchor id="6720"/>
+        <token_anchor id="6722"/>
+        <token_anchor id="6724"/>
+        <token_anchor id="6718"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6790" eng_dep="" sem_role="A1:Theme">
+        <source id="6782"/>
+        <target id="6788"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6794" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="6782"/>
+        <target id="6816"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6796" morphology="NONE" modality="to" polarity="POS" pos="VERB" pred="to make">
+        <token_anchor id="6728"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6800" eng_dep="" sem_role="A0:A0">
+        <source id="6796"/>
+        <target id="6816"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6802">
+        <token_anchor id="6732"/>
+        <token_anchor id="6734"/>
+        <token_anchor id="6738"/>
+        <token_anchor id="6736"/>
+        <token_anchor id="6730"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6804" eng_dep="" sem_role="A1:A1">
+        <source id="6796"/>
+        <target id="6802"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6806">
+        <token_anchor id="6758"/>
+        <token_anchor id="6750"/>
+        <token_anchor id="6746"/>
+        <token_anchor id="6756"/>
+        <token_anchor id="6740"/>
+        <token_anchor id="6748"/>
+        <token_anchor id="6752"/>
+        <token_anchor id="6742"/>
+        <token_anchor id="6754"/>
+        <token_anchor id="6744"/>
+        <token_anchor id="6760"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6808" eng_dep="" sem_role="A1:A1">
+        <source id="6796"/>
+        <target id="6806"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6810" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to continue">
+        <token_anchor id="6736"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6814" eng_dep="NSUBJ" sem_role="A1:A1">
+        <source id="6810"/>
+        <target id="6820"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6816">
+        <token_anchor id="6714"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6820">
+        <token_anchor id="6732"/>
+        <token_anchor id="6734"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6824">
+        <token_anchor id="6742"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6828">
+        <token_anchor id="6750"/>
+        <token_anchor id="6748"/>
+        <token_anchor id="6752"/>
+    </ENTITY_MENTION>
+    <token sentence="23" id="6832" number="0">Bobby</token>
+    <token sentence="23" id="6834" number="1">loses</token>
+    <token sentence="23" id="6836" number="2">the</token>
+    <token sentence="23" id="6838" number="3">first</token>
+    <token sentence="23" id="6840" number="4">game</token>
+    <token sentence="23" id="6842" number="5">,</token>
+    <token sentence="23" id="6844" number="6">and</token>
+    <token sentence="23" id="6846" number="7">doesn't</token>
+    <token sentence="23" id="6848" number="8">show</token>
+    <token sentence="23" id="6850" number="9">up</token>
+    <token sentence="23" id="6852" number="10">for</token>
+    <token sentence="23" id="6854" number="11">the</token>
+    <token sentence="23" id="6856" number="12">second</token>
+    <token sentence="23" id="6858" number="13">,</token>
+    <token sentence="23" id="6860" number="14">therefore</token>
+    <token sentence="23" id="6862" number="15">losing</token>
+    <token sentence="23" id="6864" number="16">by</token>
+    <token sentence="23" id="6866" number="17">forfeit</token>
+    <token sentence="23" id="6868" number="18">.</token>
+    <TIMEX3 id="6870">
+        <token_anchor id="6854"/>
+        <token_anchor id="6856"/>
+    </TIMEX3>
+    <EVENT id="6872" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to lose">
+        <token_anchor id="6862"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6876" eng_dep="" sem_role="A0:A0">
+        <source id="6872"/>
+        <target id="6914"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6878">
+        <token_anchor id="6860"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6880" eng_dep="" sem_role="AM-DIS:Discourse">
+        <source id="6872"/>
+        <target id="6878"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6882">
+        <token_anchor id="6866"/>
+        <token_anchor id="6864"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6884" eng_dep="" sem_role="AM-MNR:Manner">
+        <source id="6872"/>
+        <target id="6882"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6886" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to show">
+        <token_anchor id="6848"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6890" eng_dep="NSUBJ" sem_role="A1:A1">
+        <source id="6886"/>
+        <target id="6914"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6892">
+        <token_anchor id="6852"/>
+        <token_anchor id="6854"/>
+        <token_anchor id="6856"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6894" eng_dep="" sem_role="AM-ADV:Adverb">
+        <source id="6886"/>
+        <target id="6892"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6896">
+        <token_anchor id="6846"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6898" eng_dep="" sem_role="AM-MNR:Manner">
+        <source id="6886"/>
+        <target id="6896"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6900" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to lose">
+        <token_anchor id="6834"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6904" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="6900"/>
+        <target id="6914"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6908" eng_dep="DOBJ" sem_role="A1:A1">
+        <source id="6900"/>
+        <target id="6918"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6910">
+        <token_anchor id="6862"/>
+        <token_anchor id="6860"/>
+        <token_anchor id="6866"/>
+        <token_anchor id="6864"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6912" eng_dep="" sem_role="AM-ADV:Adverb">
+        <source id="6900"/>
+        <target id="6910"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6914">
+        <token_anchor id="6832"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6918">
+        <token_anchor id="6840"/>
+        <token_anchor id="6838"/>
+        <token_anchor id="6836"/>
+    </ENTITY_MENTION>
+    <token sentence="24" id="6926" number="0">Finally</token>
+    <token sentence="24" id="6928" number="1">,</token>
+    <token sentence="24" id="6930" number="2">he</token>
+    <token sentence="24" id="6932" number="3">wins</token>
+    <token sentence="24" id="6934" number="4">the</token>
+    <token sentence="24" id="6936" number="5">third</token>
+    <token sentence="24" id="6938" number="6">game</token>
+    <token sentence="24" id="6940" number="7">using</token>
+    <token sentence="24" id="6942" number="8">unconventional</token>
+    <token sentence="24" id="6944" number="9">tactics</token>
+    <token sentence="24" id="6946" number="10">.</token>
+    <EVENT id="6948" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to win">
+        <token_anchor id="6932"/>
+    </EVENT>
+    <ENTITY_MENTION id="6950">
+        <token_anchor id="6926"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6952" eng_dep="" sem_role="AM-DIS:Discourse">
+        <source id="6948"/>
+        <target id="6950"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6954">
+        <token_anchor id="6944"/>
+        <token_anchor id="6938"/>
+        <token_anchor id="6940"/>
+        <token_anchor id="6936"/>
+        <token_anchor id="6934"/>
+        <token_anchor id="6942"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6956" eng_dep="" sem_role="A1:Theme">
+        <source id="6948"/>
+        <target id="6954"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6960" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="6948"/>
+        <target id="6972"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="6962" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to use">
+        <token_anchor id="6940"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="6966" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="6962"/>
+        <target id="6980"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="6970" eng_dep="" sem_role="A0:Agent">
+        <source id="6962"/>
+        <target id="6976"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6972">
+        <token_anchor id="6930"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="6976">
+        <token_anchor id="6938"/>
+        <token_anchor id="6936"/>
+        <token_anchor id="6934"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="6978" eng_dep="DOBJ">
+        <source id="6948"/>
+        <target id="6976"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="6980">
+        <token_anchor id="6944"/>
+        <token_anchor id="6942"/>
+    </ENTITY_MENTION>
+    <token sentence="25" id="6984" number="0">Americans</token>
+    <token sentence="25" id="6986" number="1">are</token>
+    <token sentence="25" id="6988" number="2">thrilled</token>
+    <token sentence="25" id="6990" number="3">with</token>
+    <token sentence="25" id="6992" number="4">Bobby</token>
+    <token sentence="25" id="6994" number="5">'s</token>
+    <token sentence="25" id="6996" number="6">victory</token>
+    <token sentence="25" id="6998" number="7">.</token>
+    <EVENT id="7000" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to thrill">
+        <token_anchor id="6988"/>
+    </EVENT>
+    <ENTITY_MENTION id="7002">
+        <token_anchor id="6990"/>
+        <token_anchor id="6996"/>
+        <token_anchor id="6992"/>
+        <token_anchor id="6994"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7004" eng_dep="" sem_role="A2:A2">
+        <source id="7000"/>
+        <target id="7002"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="7008" eng_dep="NSUBJPASS" sem_role="A1:Experiencer">
+        <source id="7000"/>
+        <target id="7010"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7010">
+        <token_anchor id="6984"/>
+    </ENTITY_MENTION>
+    <token sentence="26" id="7014" number="0">Game</token>
+    <token sentence="26" id="7016" number="1">four</token>
+    <token sentence="26" id="7018" number="2">is</token>
+    <token sentence="26" id="7020" number="3">a</token>
+    <token sentence="26" id="7022" number="4">draw</token>
+    <token sentence="26" id="7024" number="5">,</token>
+    <token sentence="26" id="7026" number="6">but</token>
+    <token sentence="26" id="7028" number="7">Fischer</token>
+    <token sentence="26" id="7030" number="8">wins</token>
+    <token sentence="26" id="7032" number="9">game</token>
+    <token sentence="26" id="7034" number="10">five</token>
+    <token sentence="26" id="7036" number="11">after</token>
+    <token sentence="26" id="7038" number="12">Spassky</token>
+    <token sentence="26" id="7040" number="13">himself</token>
+    <token sentence="26" id="7042" number="14">begins</token>
+    <token sentence="26" id="7044" number="15">showing</token>
+    <token sentence="26" id="7046" number="16">signs</token>
+    <token sentence="26" id="7048" number="17">of</token>
+    <token sentence="26" id="7050" number="18">paranoia</token>
+    <token sentence="26" id="7052" number="19">.</token>
+    <TIMEX3 id="7054">
+        <token_anchor id="7014"/>
+        <token_anchor id="7016"/>
+    </TIMEX3>
+    <EVENT id="7056" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to show">
+        <token_anchor id="7044"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="7060" eng_dep="DOBJ" sem_role="A1:Predicate">
+        <source id="7056"/>
+        <target id="7102"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="7064" eng_dep="" sem_role="A0:Agent">
+        <source id="7056"/>
+        <target id="7098"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="7066" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to win">
+        <token_anchor id="7030"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="7070" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="7066"/>
+        <target id="7094"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="7074" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="7066"/>
+        <target id="7090"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7076">
+        <token_anchor id="7048"/>
+        <token_anchor id="7044"/>
+        <token_anchor id="7046"/>
+        <token_anchor id="7040"/>
+        <token_anchor id="7036"/>
+        <token_anchor id="7038"/>
+        <token_anchor id="7042"/>
+        <token_anchor id="7050"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7078" eng_dep="" sem_role="AM-TMP:Time">
+        <source id="7066"/>
+        <target id="7076"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="7080" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to begin">
+        <token_anchor id="7042"/>
+    </EVENT>
+    <ENTITY_MENTION id="7082">
+        <token_anchor id="7048"/>
+        <token_anchor id="7044"/>
+        <token_anchor id="7046"/>
+        <token_anchor id="7050"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7084" eng_dep="" sem_role="A1:Theme">
+        <source id="7080"/>
+        <target id="7082"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="7088" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="7080"/>
+        <target id="7098"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7090">
+        <token_anchor id="7028"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="7094">
+        <token_anchor id="7032"/>
+        <token_anchor id="7034"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="7098">
+        <token_anchor id="7040"/>
+        <token_anchor id="7038"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="7102">
+        <token_anchor id="7048"/>
+        <token_anchor id="7046"/>
+        <token_anchor id="7050"/>
+    </ENTITY_MENTION>
+    <token sentence="27" id="7106" number="0">With</token>
+    <token sentence="27" id="7108" number="1">the</token>
+    <token sentence="27" id="7110" number="2">match</token>
+    <token sentence="27" id="7112" number="3">now</token>
+    <token sentence="27" id="7114" number="4">more</token>
+    <token sentence="27" id="7116" number="5">interesting</token>
+    <token sentence="27" id="7118" number="6">,</token>
+    <token sentence="27" id="7120" number="7">experts</token>
+    <token sentence="27" id="7122" number="8">speculate</token>
+    <token sentence="27" id="7124" number="9">that</token>
+    <token sentence="27" id="7126" number="10">the</token>
+    <token sentence="27" id="7128" number="11">next</token>
+    <token sentence="27" id="7130" number="12">game</token>
+    <token sentence="27" id="7132" number="13">will</token>
+    <token sentence="27" id="7134" number="14">determine</token>
+    <token sentence="27" id="7136" number="15">the</token>
+    <token sentence="27" id="7138" number="16">outcome</token>
+    <token sentence="27" id="7140" number="17">of</token>
+    <token sentence="27" id="7142" number="18">the</token>
+    <token sentence="27" id="7144" number="19">tournament</token>
+    <token sentence="27" id="7146" number="20">.</token>
+    <EVENT id="7148" morphology="NONE" modality="will" polarity="POS" pos="NOUN">
+        <token_anchor id="7138"/>
+    </EVENT>
+    <ENTITY_MENTION id="7150">
+        <token_anchor id="7144"/>
+        <token_anchor id="7140"/>
+        <token_anchor id="7142"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7152" eng_dep="" sem_role="A1:Theme">
+        <source id="7148"/>
+        <target id="7150"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7154">
+        <token_anchor id="7138"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7156" eng_dep="" sem_role="A2:Location">
+        <source id="7148"/>
+        <target id="7154"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="7158" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to speculate">
+        <token_anchor id="7122"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="7162" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="7158"/>
+        <target id="7190"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7164">
+        <token_anchor id="7124"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7166" eng_dep="" sem_role="A1:A1">
+        <source id="7158"/>
+        <target id="7164"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7168">
+        <token_anchor id="7128"/>
+        <token_anchor id="7134"/>
+        <token_anchor id="7130"/>
+        <token_anchor id="7138"/>
+        <token_anchor id="7144"/>
+        <token_anchor id="7140"/>
+        <token_anchor id="7136"/>
+        <token_anchor id="7126"/>
+        <token_anchor id="7142"/>
+        <token_anchor id="7132"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7170" eng_dep="" sem_role="A1:A1">
+        <source id="7158"/>
+        <target id="7168"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7172">
+        <token_anchor id="7112"/>
+        <token_anchor id="7108"/>
+        <token_anchor id="7106"/>
+        <token_anchor id="7110"/>
+        <token_anchor id="7116"/>
+        <token_anchor id="7114"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7174" eng_dep="" sem_role="AM-ADV:Adverb">
+        <source id="7158"/>
+        <target id="7172"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="7176" morphology="NONE" modality="will" polarity="POS" tense="FUTURE" pos="VERB" pred="to determine">
+        <token_anchor id="7134"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="7180" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="7176"/>
+        <target id="7194"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="7184" eng_dep="DOBJ" sem_role="A1:A1">
+        <source id="7176"/>
+        <target id="7198"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7186">
+        <token_anchor id="7132"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7188" eng_dep="" sem_role="AM-MOD:Modal">
+        <source id="7176"/>
+        <target id="7186"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7190">
+        <token_anchor id="7120"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="7194">
+        <token_anchor id="7128"/>
+        <token_anchor id="7130"/>
+        <token_anchor id="7126"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="7198">
+        <token_anchor id="7138"/>
+        <token_anchor id="7144"/>
+        <token_anchor id="7140"/>
+        <token_anchor id="7136"/>
+        <token_anchor id="7142"/>
+    </ENTITY_MENTION>
+    <token sentence="28" id="7202" number="0">In</token>
+    <token sentence="28" id="7204" number="1">game</token>
+    <token sentence="28" id="7206" number="2">six</token>
+    <token sentence="28" id="7208" number="3">Fischer</token>
+    <token sentence="28" id="7210" number="4">plays</token>
+    <token sentence="28" id="7212" number="5">using</token>
+    <token sentence="28" id="7214" number="6">an</token>
+    <token sentence="28" id="7216" number="7">opening</token>
+    <token sentence="28" id="7218" number="8">he</token>
+    <token sentence="28" id="7220" number="9">has</token>
+    <token sentence="28" id="7222" number="10">never</token>
+    <token sentence="28" id="7224" number="11">played</token>
+    <token sentence="28" id="7226" number="12">before</token>
+    <token sentence="28" id="7228" number="13">,</token>
+    <token sentence="28" id="7230" number="14">surprising</token>
+    <token sentence="28" id="7232" number="15">the</token>
+    <token sentence="28" id="7234" number="16">audience</token>
+    <token sentence="28" id="7236" number="17">and</token>
+    <token sentence="28" id="7238" number="18">winning</token>
+    <token sentence="28" id="7240" number="19">.</token>
+    <EVENT id="7242" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to play">
+        <token_anchor id="7224"/>
+    </EVENT>
+    <ENTITY_MENTION id="7244">
+        <token_anchor id="7234"/>
+        <token_anchor id="7232"/>
+        <token_anchor id="7230"/>
+        <token_anchor id="7238"/>
+        <token_anchor id="7236"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7246" eng_dep="" sem_role="AM-ADV:Adverb">
+        <source id="7242"/>
+        <target id="7244"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7248">
+        <token_anchor id="7216"/>
+        <token_anchor id="7214"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7250" eng_dep="" sem_role="A1:Theme">
+        <source id="7242"/>
+        <target id="7248"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="7254" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="7242"/>
+        <target id="7284"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7256">
+        <token_anchor id="7222"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7258" eng_dep="" sem_role="AM-TMP:Time">
+        <source id="7242"/>
+        <target id="7256"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7260">
+        <token_anchor id="7226"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7262" eng_dep="" sem_role="AM-TMP:Time">
+        <source id="7242"/>
+        <target id="7260"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="7264" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to use">
+        <token_anchor id="7212"/>
+    </EVENT>
+    <ENTITY_MENTION id="7266">
+        <token_anchor id="7218"/>
+        <token_anchor id="7216"/>
+        <token_anchor id="7234"/>
+        <token_anchor id="7214"/>
+        <token_anchor id="7232"/>
+        <token_anchor id="7228"/>
+        <token_anchor id="7230"/>
+        <token_anchor id="7238"/>
+        <token_anchor id="7236"/>
+        <token_anchor id="7222"/>
+        <token_anchor id="7220"/>
+        <token_anchor id="7240"/>
+        <token_anchor id="7226"/>
+        <token_anchor id="7224"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7268" eng_dep="" sem_role="A1:Theme">
+        <source id="7264"/>
+        <target id="7266"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7270">
+        <token_anchor id="7208"/>
+        <token_anchor id="7210"/>
+        <token_anchor id="7206"/>
+        <token_anchor id="7204"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7272" eng_dep="" sem_role="A0:Agent">
+        <source id="7264"/>
+        <target id="7270"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="7274" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to surprise">
+        <token_anchor id="7230"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="7278" eng_dep="DOBJ" sem_role="A1:Experiencer">
+        <source id="7274"/>
+        <target id="7288"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7280">
+        <token_anchor id="7218"/>
+        <token_anchor id="7216"/>
+        <token_anchor id="7214"/>
+        <token_anchor id="7222"/>
+        <token_anchor id="7220"/>
+        <token_anchor id="7226"/>
+        <token_anchor id="7224"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7282" eng_dep="DOBJ">
+        <source id="7264"/>
+        <target id="7280"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7284">
+        <token_anchor id="7218"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="7288">
+        <token_anchor id="7234"/>
+        <token_anchor id="7232"/>
+        <token_anchor id="7238"/>
+        <token_anchor id="7236"/>
+    </ENTITY_MENTION>
+    <token sentence="29" id="7292" number="0">Spassky</token>
+    <token sentence="29" id="7294" number="1">expresses</token>
+    <token sentence="29" id="7296" number="2">amazed</token>
+    <token sentence="29" id="7298" number="3">admiration</token>
+    <token sentence="29" id="7300" number="4">and</token>
+    <token sentence="29" id="7302" number="5">rises</token>
+    <token sentence="29" id="7304" number="6">to</token>
+    <token sentence="29" id="7306" number="7">lead</token>
+    <token sentence="29" id="7308" number="8">the</token>
+    <token sentence="29" id="7310" number="9">applause</token>
+    <token sentence="29" id="7312" number="10">from</token>
+    <token sentence="29" id="7314" number="11">the</token>
+    <token sentence="29" id="7316" number="12">gallery</token>
+    <token sentence="29" id="7318" number="13">.</token>
+    <EVENT id="7320" morphology="NONE" modality="to" polarity="POS" pos="VERB" pred="to lead">
+        <token_anchor id="7306"/>
+    </EVENT>
+    <ENTITY_MENTION id="7322">
+        <token_anchor id="7316"/>
+        <token_anchor id="7312"/>
+        <token_anchor id="7314"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7324" eng_dep="" sem_role="A3:A3">
+        <source id="7320"/>
+        <target id="7322"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="7328" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="7320"/>
+        <target id="7350"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="7330" morphology="NONE" modality="NONE" polarity="POS" pos="VERB" pred="to amaze">
+        <token_anchor id="7296"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="7334" eng_dep="" sem_role="A0:Cause">
+        <source id="7330"/>
+        <target id="7346"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7336">
+        <token_anchor id="7298"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7338" eng_dep="" sem_role="A1:Experiencer">
+        <source id="7330"/>
+        <target id="7336"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="7340" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to rise">
+        <token_anchor id="7302"/>
+    </EVENT>
+    <ENTITY_MENTION id="7342">
+        <token_anchor id="7316"/>
+        <token_anchor id="7308"/>
+        <token_anchor id="7312"/>
+        <token_anchor id="7314"/>
+        <token_anchor id="7306"/>
+        <token_anchor id="7310"/>
+        <token_anchor id="7304"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7344" eng_dep="" sem_role="AM-PNC:Purpose">
+        <source id="7340"/>
+        <target id="7342"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7346">
+        <token_anchor id="7292"/>
+        <token_anchor id="7294"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7348" eng_dep="" sem_role="A1:Theme">
+        <source id="7340"/>
+        <target id="7346"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7350">
+        <token_anchor id="7308"/>
+        <token_anchor id="7310"/>
+    </ENTITY_MENTION>
+    <token sentence="30" id="7354" number="0">Fischer</token>
+    <token sentence="30" id="7356" number="1">ultimately</token>
+    <token sentence="30" id="7358" number="2">goes</token>
+    <token sentence="30" id="7360" number="3">on</token>
+    <token sentence="30" id="7362" number="4">to</token>
+    <token sentence="30" id="7364" number="5">win</token>
+    <token sentence="30" id="7366" number="6">the</token>
+    <token sentence="30" id="7368" number="7">match</token>
+    <token sentence="30" id="7370" number="8">,</token>
+    <token sentence="30" id="7372" number="9">but</token>
+    <token sentence="30" id="7374" number="10">his</token>
+    <token sentence="30" id="7376" number="11">delusions</token>
+    <token sentence="30" id="7378" number="12">have</token>
+    <token sentence="30" id="7380" number="13">destroyed</token>
+    <token sentence="30" id="7382" number="14">him</token>
+    <token sentence="30" id="7384" number="15">emotionally</token>
+    <token sentence="30" id="7386" number="16">,</token>
+    <token sentence="30" id="7388" number="17">and</token>
+    <token sentence="30" id="7390" number="18">he</token>
+    <token sentence="30" id="7392" number="19">goes</token>
+    <token sentence="30" id="7394" number="20">into</token>
+    <token sentence="30" id="7396" number="21">self-imposed</token>
+    <token sentence="30" id="7398" number="22">exile</token>
+    <token sentence="30" id="7400" number="23">.</token>
+    <EVENT id="7402" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to go">
+        <token_anchor id="7358"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="7406" eng_dep="NSUBJ" sem_role="A0:A0">
+        <source id="7402"/>
+        <target id="7450"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7408">
+        <token_anchor id="7366"/>
+        <token_anchor id="7364"/>
+        <token_anchor id="7368"/>
+        <token_anchor id="7362"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7410" eng_dep="" sem_role="AM-PNC:Purpose">
+        <source id="7402"/>
+        <target id="7408"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7412">
+        <token_anchor id="7356"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7414" eng_dep="" sem_role="AM-TMP:Time">
+        <source id="7402"/>
+        <target id="7412"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="7416" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to go">
+        <token_anchor id="7392"/>
+    </EVENT>
+    <ENTITY_MENTION id="7418">
+        <token_anchor id="7396"/>
+        <token_anchor id="7394"/>
+        <token_anchor id="7398"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7420" eng_dep="" sem_role="A4:A4">
+        <source id="7416"/>
+        <target id="7418"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="7424" eng_dep="NSUBJ" sem_role="A1:Theme">
+        <source id="7416"/>
+        <target id="7466"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="7426" morphology="NONE" modality="to" polarity="POS" pos="VERB" pred="to win">
+        <token_anchor id="7364"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="7430" eng_dep="DOBJ" sem_role="A1:Theme">
+        <source id="7426"/>
+        <target id="7454"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="7434" eng_dep="" sem_role="A0:Agent">
+        <source id="7426"/>
+        <target id="7450"/>
+    </HAS_PARTICIPANT>
+    <EVENT id="7436" morphology="NONE" modality="NONE" polarity="POS" tense="PRESENT" pos="VERB" pred="to destroy">
+        <token_anchor id="7380"/>
+    </EVENT>
+    <HAS_PARTICIPANT id="7440" eng_dep="DOBJ" sem_role="A1:Patient">
+        <source id="7436"/>
+        <target id="7462"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7442">
+        <token_anchor id="7384"/>
+    </ENTITY_MENTION>
+    <HAS_PARTICIPANT id="7444" eng_dep="" sem_role="AM-MNR:Manner">
+        <source id="7436"/>
+        <target id="7442"/>
+    </HAS_PARTICIPANT>
+    <HAS_PARTICIPANT id="7448" eng_dep="NSUBJ" sem_role="A0:Agent">
+        <source id="7436"/>
+        <target id="7458"/>
+    </HAS_PARTICIPANT>
+    <ENTITY_MENTION id="7450">
+        <token_anchor id="7354"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="7454">
+        <token_anchor id="7366"/>
+        <token_anchor id="7368"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="7458">
+        <token_anchor id="7376"/>
+        <token_anchor id="7374"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="7462">
+        <token_anchor id="7382"/>
+    </ENTITY_MENTION>
+    <ENTITY_MENTION id="7466">
+        <token_anchor id="7390"/>
+    </ENTITY_MENTION>
+    <TLINK relType="BEFORE" signalID="-1" id="7470">
+        <source id="4812"/>
+        <target id="4822"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7472">
+        <source id="4822"/>
+        <target id="4832"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7474">
+        <source id="4832"/>
+        <target id="4910"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7476">
+        <source id="4910"/>
+        <target id="4924"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7478">
+        <source id="4924"/>
+        <target id="5014"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7480">
+        <source id="5014"/>
+        <target id="5024"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7482">
+        <source id="5024"/>
+        <target id="5044"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7484">
+        <source id="5024"/>
+        <target id="5058"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7486">
+        <source id="5044"/>
+        <target id="5068"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7488">
+        <source id="5024"/>
+        <target id="5132"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7490">
+        <source id="4924"/>
+        <target id="5142"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7492">
+        <source id="5142"/>
+        <target id="5164"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7494">
+        <source id="5164"/>
+        <target id="5208"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7496">
+        <source id="5208"/>
+        <target id="5218"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7498">
+        <source id="5208"/>
+        <target id="5228"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7500">
+        <source id="5218"/>
+        <target id="5288"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7502">
+        <source id="5228"/>
+        <target id="5298"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7504">
+        <source id="5228"/>
+        <target id="5364"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7506">
+        <source id="5364"/>
+        <target id="5378"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7508">
+        <source id="5378"/>
+        <target id="5524"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7510">
+        <source id="5524"/>
+        <target id="5544"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7512">
+        <source id="5544"/>
+        <target id="5554"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7514">
+        <source id="5554"/>
+        <target id="5564"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7516">
+        <source id="5564"/>
+        <target id="5586"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7518">
+        <source id="5564"/>
+        <target id="5648"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7520">
+        <source id="5564"/>
+        <target id="5658"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7522">
+        <source id="5586"/>
+        <target id="5758"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7524">
+        <source id="5378"/>
+        <target id="5782"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7526">
+        <source id="5648"/>
+        <target id="5796"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7528">
+        <source id="5782"/>
+        <target id="5806"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7530">
+        <source id="5378"/>
+        <target id="5908"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7532">
+        <source id="5806"/>
+        <target id="5914"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7534">
+        <source id="5908"/>
+        <target id="5972"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7536">
+        <source id="5972"/>
+        <target id="6024"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7538">
+        <source id="6024"/>
+        <target id="6034"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7540">
+        <source id="6034"/>
+        <target id="6058"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7542">
+        <source id="6058"/>
+        <target id="6144"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7544">
+        <source id="6144"/>
+        <target id="6158"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7546">
+        <source id="6158"/>
+        <target id="6172"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7548">
+        <source id="6172"/>
+        <target id="6186"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7550">
+        <source id="6186"/>
+        <target id="6246"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7552">
+        <source id="6246"/>
+        <target id="6344"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7554">
+        <source id="6344"/>
+        <target id="6358"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7556">
+        <source id="6358"/>
+        <target id="6404"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7558">
+        <source id="6404"/>
+        <target id="6472"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7560">
+        <source id="6472"/>
+        <target id="6496"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7562">
+        <source id="6496"/>
+        <target id="6650"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7564">
+        <source id="6650"/>
+        <target id="6664"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7566">
+        <source id="6472"/>
+        <target id="6712"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7568">
+        <source id="6664"/>
+        <target id="6782"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7570">
+        <source id="6782"/>
+        <target id="6810"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7572">
+        <source id="6810"/>
+        <target id="6872"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7574">
+        <source id="6472"/>
+        <target id="6886"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7576">
+        <source id="6472"/>
+        <target id="6900"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7578">
+        <source id="6782"/>
+        <target id="6948"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7580">
+        <source id="6948"/>
+        <target id="6962"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7582">
+        <source id="6962"/>
+        <target id="7000"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7584">
+        <source id="7000"/>
+        <target id="7056"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7586">
+        <source id="6948"/>
+        <target id="7066"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7588">
+        <source id="7000"/>
+        <target id="7080"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7590">
+        <source id="7066"/>
+        <target id="7158"/>
+    </TLINK>
+    <TLINK relType="INCLUDES" signalID="-1" id="7592">
+        <source id="7158"/>
+        <target id="7242"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7594">
+        <source id="6472"/>
+        <target id="7264"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7596">
+        <source id="6472"/>
+        <target id="7274"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7598">
+        <source id="6472"/>
+        <target id="7330"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7600">
+        <source id="6472"/>
+        <target id="7340"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7602">
+        <source id="7066"/>
+        <target id="7402"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7604">
+        <source id="7402"/>
+        <target id="7416"/>
+    </TLINK>
+    <TLINK relType="BEFORE" signalID="-1" id="7606">
+        <source id="7416"/>
+        <target id="7436"/>
+    </TLINK>
+    <ENTITY_MENTION id="7611">
+        <token_anchor id="6228"/>
+        <token_anchor id="6230"/>
+        <token_anchor id="6232"/>
+        <token_anchor id="6234"/>
+        <token_anchor id="6236"/>
+        <token_anchor id="6238"/>
+        <token_anchor id="6240"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7611"/>
+        <target id="7609"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7615">
+        <token_anchor id="6228"/>
+        <token_anchor id="6230"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7615"/>
+        <target id="7609"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7619">
+        <token_anchor id="6234"/>
+        <token_anchor id="6236"/>
+        <token_anchor id="6238"/>
+        <token_anchor id="6240"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7619"/>
+        <target id="7609"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6510"/>
+        <target id="7609"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7627">
+        <token_anchor id="6560"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7627"/>
+        <target id="7609"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6816"/>
+        <target id="7609"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7635">
+        <token_anchor id="6722"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7635"/>
+        <target id="7609"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6824"/>
+        <target id="7609"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7643">
+        <token_anchor id="7038"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7643"/>
+        <target id="7609"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7647">
+        <token_anchor id="7292"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7647"/>
+        <target id="7609"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7653">
+        <token_anchor id="6236"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7653"/>
+        <target id="7651"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7657">
+        <token_anchor id="6264"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7657"/>
+        <target id="7651"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7661">
+        <token_anchor id="6268"/>
+        <token_anchor id="6270"/>
+        <token_anchor id="6272"/>
+        <token_anchor id="6274"/>
+        <token_anchor id="6276"/>
+        <token_anchor id="6278"/>
+        <token_anchor id="6280"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7661"/>
+        <target id="7651"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7667">
+        <token_anchor id="4994"/>
+        <token_anchor id="4996"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7667"/>
+        <target id="7665"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7671">
+        <token_anchor id="5692"/>
+        <token_anchor id="5694"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7671"/>
+        <target id="7665"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7675">
+        <token_anchor id="6286"/>
+        <token_anchor id="6288"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7675"/>
+        <target id="7665"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7681">
+        <token_anchor id="4764"/>
+        <token_anchor id="4766"/>
+        <token_anchor id="4768"/>
+        <token_anchor id="4770"/>
+        <token_anchor id="4772"/>
+        <token_anchor id="4774"/>
+        <token_anchor id="4776"/>
+        <token_anchor id="4778"/>
+        <token_anchor id="4780"/>
+        <token_anchor id="4782"/>
+        <token_anchor id="4784"/>
+        <token_anchor id="4786"/>
+        <token_anchor id="4788"/>
+        <token_anchor id="4790"/>
+        <token_anchor id="4792"/>
+        <token_anchor id="4794"/>
+        <token_anchor id="4796"/>
+        <token_anchor id="4798"/>
+        <token_anchor id="4800"/>
+        <token_anchor id="4802"/>
+        <token_anchor id="4804"/>
+        <token_anchor id="4806"/>
+        <token_anchor id="4808"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7681"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7685">
+        <token_anchor id="4872"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7685"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="4946"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7693">
+        <token_anchor id="4950"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7693"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7697">
+        <token_anchor id="4966"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7697"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5086"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5156"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5160"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7713">
+        <token_anchor id="5170"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7713"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7717">
+        <token_anchor id="5186"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7717"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5254"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5316"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7729">
+        <token_anchor id="5320"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7729"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5396"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5400"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5596"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5604"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5612"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7753">
+        <token_anchor id="5486"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7753"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5680"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7761">
+        <token_anchor id="5640"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7761"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5856"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5864"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5868"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7777">
+        <token_anchor id="5726"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7777"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5880"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7785">
+        <token_anchor id="5892"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7785"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5982"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7793">
+        <token_anchor id="5998"/>
+        <token_anchor id="6000"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7793"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6076"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7801">
+        <token_anchor id="6556"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7801"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6696"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6704"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6914"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6972"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7821">
+        <token_anchor id="6992"/>
+        <token_anchor id="6994"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7821"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="7090"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7829">
+        <token_anchor id="7040"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7829"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7833">
+        <token_anchor id="7208"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7833"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="7284"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="7450"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7845">
+        <token_anchor id="7374"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7845"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="7462"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="7466"/>
+        <target id="7679"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7859">
+        <token_anchor id="5932"/>
+        <token_anchor id="5934"/>
+        <token_anchor id="5936"/>
+        <token_anchor id="5938"/>
+        <token_anchor id="5940"/>
+        <token_anchor id="5942"/>
+        <token_anchor id="5944"/>
+        <token_anchor id="5946"/>
+        <token_anchor id="5948"/>
+        <token_anchor id="5950"/>
+        <token_anchor id="5952"/>
+        <token_anchor id="5954"/>
+        <token_anchor id="5956"/>
+        <token_anchor id="5958"/>
+        <token_anchor id="5960"/>
+        <token_anchor id="5962"/>
+        <token_anchor id="5964"/>
+        <token_anchor id="5966"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7859"/>
+        <target id="7857"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7863">
+        <token_anchor id="5932"/>
+        <token_anchor id="5934"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7863"/>
+        <target id="7857"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6064"/>
+        <target id="7857"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6216"/>
+        <target id="7857"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6260"/>
+        <target id="7857"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6364"/>
+        <target id="7857"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7885">
+        <token_anchor id="5480"/>
+        <token_anchor id="5482"/>
+        <token_anchor id="5484"/>
+        <token_anchor id="5486"/>
+        <token_anchor id="5488"/>
+        <token_anchor id="5490"/>
+        <token_anchor id="5492"/>
+        <token_anchor id="5494"/>
+        <token_anchor id="5496"/>
+        <token_anchor id="5498"/>
+        <token_anchor id="5500"/>
+        <token_anchor id="5502"/>
+        <token_anchor id="5504"/>
+        <token_anchor id="5506"/>
+        <token_anchor id="5508"/>
+        <token_anchor id="5510"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7885"/>
+        <target id="7883"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5570"/>
+        <target id="7883"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7895">
+        <token_anchor id="5954"/>
+        <token_anchor id="5956"/>
+        <token_anchor id="5958"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7895"/>
+        <target id="7893"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7899">
+        <token_anchor id="5964"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7899"/>
+        <target id="7893"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5672"/>
+        <target id="7903"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7909">
+        <token_anchor id="7142"/>
+        <token_anchor id="7144"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7909"/>
+        <target id="7903"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7915">
+        <token_anchor id="5964"/>
+        <token_anchor id="5966"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7915"/>
+        <target id="7913"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7919">
+        <token_anchor id="6854"/>
+        <token_anchor id="6856"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7919"/>
+        <target id="7913"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7923">
+        <token_anchor id="6856"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7923"/>
+        <target id="7913"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7929">
+        <token_anchor id="6540"/>
+        <token_anchor id="6542"/>
+        <token_anchor id="6544"/>
+        <token_anchor id="6546"/>
+        <token_anchor id="6548"/>
+        <token_anchor id="6550"/>
+        <token_anchor id="6552"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7929"/>
+        <target id="7927"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6820"/>
+        <target id="7927"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="7454"/>
+        <target id="7927"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6068"/>
+        <target id="7941"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7947">
+        <token_anchor id="5998"/>
+        <token_anchor id="6000"/>
+        <token_anchor id="6002"/>
+        <token_anchor id="6004"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7947"/>
+        <target id="7941"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7953">
+        <token_anchor id="6590"/>
+        <token_anchor id="6592"/>
+        <token_anchor id="6594"/>
+        <token_anchor id="6596"/>
+        <token_anchor id="6598"/>
+        <token_anchor id="6600"/>
+        <token_anchor id="6602"/>
+        <token_anchor id="6604"/>
+        <token_anchor id="6606"/>
+        <token_anchor id="6608"/>
+        <token_anchor id="6610"/>
+        <token_anchor id="6612"/>
+        <token_anchor id="6614"/>
+        <token_anchor id="6616"/>
+        <token_anchor id="6618"/>
+        <token_anchor id="6620"/>
+        <token_anchor id="6622"/>
+        <token_anchor id="6624"/>
+        <token_anchor id="6626"/>
+        <token_anchor id="6628"/>
+        <token_anchor id="6630"/>
+        <token_anchor id="6632"/>
+        <token_anchor id="6634"/>
+        <token_anchor id="6636"/>
+        <token_anchor id="6638"/>
+        <token_anchor id="6640"/>
+        <token_anchor id="6642"/>
+        <token_anchor id="6644"/>
+        <token_anchor id="6646"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7953"/>
+        <target id="7951"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7957">
+        <token_anchor id="6596"/>
+        <token_anchor id="6598"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7957"/>
+        <target id="7951"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="7288"/>
+        <target id="7951"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7967">
+        <token_anchor id="6602"/>
+        <token_anchor id="6604"/>
+        <token_anchor id="6606"/>
+        <token_anchor id="6608"/>
+        <token_anchor id="6610"/>
+        <token_anchor id="6612"/>
+        <token_anchor id="6614"/>
+        <token_anchor id="6616"/>
+        <token_anchor id="6618"/>
+        <token_anchor id="6620"/>
+        <token_anchor id="6622"/>
+        <token_anchor id="6624"/>
+        <token_anchor id="6626"/>
+        <token_anchor id="6628"/>
+        <token_anchor id="6630"/>
+        <token_anchor id="6632"/>
+        <token_anchor id="6634"/>
+        <token_anchor id="6636"/>
+        <token_anchor id="6638"/>
+        <token_anchor id="6640"/>
+        <token_anchor id="6642"/>
+        <token_anchor id="6644"/>
+        <token_anchor id="6646"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7967"/>
+        <target id="7965"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7971">
+        <token_anchor id="6604"/>
+        <token_anchor id="6606"/>
+        <token_anchor id="6608"/>
+        <token_anchor id="6610"/>
+        <token_anchor id="6612"/>
+        <token_anchor id="6614"/>
+        <token_anchor id="6616"/>
+        <token_anchor id="6618"/>
+        <token_anchor id="6620"/>
+        <token_anchor id="6622"/>
+        <token_anchor id="6624"/>
+        <token_anchor id="6626"/>
+        <token_anchor id="6628"/>
+        <token_anchor id="6630"/>
+        <token_anchor id="6632"/>
+        <token_anchor id="6634"/>
+        <token_anchor id="6636"/>
+        <token_anchor id="6638"/>
+        <token_anchor id="6640"/>
+        <token_anchor id="6642"/>
+        <token_anchor id="6644"/>
+        <token_anchor id="6646"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7971"/>
+        <target id="7965"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7977">
+        <token_anchor id="5330"/>
+        <token_anchor id="5332"/>
+        <token_anchor id="5334"/>
+        <token_anchor id="5336"/>
+        <token_anchor id="5338"/>
+        <token_anchor id="5340"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7977"/>
+        <target id="7975"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5920"/>
+        <target id="7975"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7985">
+        <token_anchor id="6098"/>
+        <token_anchor id="6100"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7985"/>
+        <target id="7975"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7989">
+        <token_anchor id="6304"/>
+        <token_anchor id="6306"/>
+        <token_anchor id="6308"/>
+        <token_anchor id="6310"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7989"/>
+        <target id="7975"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7995">
+        <token_anchor id="6390"/>
+        <token_anchor id="6392"/>
+        <token_anchor id="6394"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7995"/>
+        <target id="7993"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="7999">
+        <token_anchor id="6430"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="7999"/>
+        <target id="7993"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="8003">
+        <token_anchor id="6438"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="8003"/>
+        <target id="7993"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="8007">
+        <token_anchor id="6456"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="8007"/>
+        <target id="7993"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6506"/>
+        <target id="7993"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="8017">
+        <token_anchor id="7014"/>
+        <token_anchor id="7016"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="8017"/>
+        <target id="8015"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="8021">
+        <token_anchor id="7020"/>
+        <token_anchor id="7022"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="8021"/>
+        <target id="8015"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="8027">
+        <token_anchor id="6616"/>
+        <token_anchor id="6618"/>
+        <token_anchor id="6620"/>
+        <token_anchor id="6622"/>
+        <token_anchor id="6624"/>
+        <token_anchor id="6626"/>
+        <token_anchor id="6628"/>
+        <token_anchor id="6630"/>
+        <token_anchor id="6632"/>
+        <token_anchor id="6634"/>
+        <token_anchor id="6636"/>
+        <token_anchor id="6638"/>
+        <token_anchor id="6640"/>
+        <token_anchor id="6642"/>
+        <token_anchor id="6644"/>
+        <token_anchor id="6646"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="8027"/>
+        <target id="8025"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="8031">
+        <token_anchor id="6616"/>
+        <token_anchor id="6618"/>
+        <token_anchor id="6620"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="8031"/>
+        <target id="8025"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="8037">
+        <token_anchor id="4950"/>
+        <token_anchor id="4952"/>
+        <token_anchor id="4954"/>
+        <token_anchor id="4956"/>
+        <token_anchor id="4958"/>
+        <token_anchor id="4960"/>
+        <token_anchor id="4962"/>
+        <token_anchor id="4964"/>
+        <token_anchor id="4966"/>
+        <token_anchor id="4968"/>
+        <token_anchor id="4970"/>
+        <token_anchor id="4972"/>
+        <token_anchor id="4974"/>
+        <token_anchor id="4976"/>
+        <token_anchor id="4978"/>
+        <token_anchor id="4980"/>
+        <token_anchor id="4982"/>
+        <token_anchor id="4984"/>
+        <token_anchor id="4986"/>
+        <token_anchor id="4988"/>
+        <token_anchor id="4990"/>
+        <token_anchor id="4992"/>
+        <token_anchor id="4994"/>
+        <token_anchor id="4996"/>
+        <token_anchor id="4998"/>
+        <token_anchor id="5000"/>
+        <token_anchor id="5002"/>
+        <token_anchor id="5004"/>
+        <token_anchor id="5006"/>
+        <token_anchor id="5008"/>
+        <token_anchor id="5010"/>
+        <token_anchor id="5012"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="8037"/>
+        <target id="8035"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="8041">
+        <token_anchor id="4950"/>
+        <token_anchor id="4952"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="8041"/>
+        <target id="8035"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="5090"/>
+        <target id="8035"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="8049">
+        <token_anchor id="5170"/>
+        <token_anchor id="5172"/>
+        <token_anchor id="5174"/>
+        <token_anchor id="5176"/>
+        <token_anchor id="5178"/>
+        <token_anchor id="5180"/>
+        <token_anchor id="5182"/>
+        <token_anchor id="5184"/>
+        <token_anchor id="5186"/>
+        <token_anchor id="5188"/>
+        <token_anchor id="5190"/>
+        <token_anchor id="5192"/>
+        <token_anchor id="5194"/>
+        <token_anchor id="5196"/>
+        <token_anchor id="5198"/>
+        <token_anchor id="5200"/>
+        <token_anchor id="5202"/>
+        <token_anchor id="5204"/>
+        <token_anchor id="5206"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="8049"/>
+        <target id="8035"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="8053">
+        <token_anchor id="5170"/>
+        <token_anchor id="5172"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="8053"/>
+        <target id="8035"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="8059">
+        <token_anchor id="6120"/>
+        <token_anchor id="6122"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="8059"/>
+        <target id="8057"/>
+    </REFERS_TO>
+    <REFERS_TO>
+        <source id="6192"/>
+        <target id="8057"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="8069">
+        <token_anchor id="6126"/>
+        <token_anchor id="6128"/>
+        <token_anchor id="6130"/>
+        <token_anchor id="6132"/>
+        <token_anchor id="6134"/>
+        <token_anchor id="6136"/>
+        <token_anchor id="6138"/>
+        <token_anchor id="6140"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="8069"/>
+        <target id="8067"/>
+    </REFERS_TO>
+    <ENTITY_MENTION id="8073">
+        <token_anchor id="6126"/>
+        <token_anchor id="6128"/>
+        <token_anchor id="6130"/>
+    </ENTITY_MENTION>
+    <REFERS_TO>
+        <source id="8073"/>
+        <target id="8067"/>
+    </REFERS_TO>
+    <ENTITY id="7609" ent_desc="Boris Spassky , the current world champion"/>
+    <ENTITY id="7651" ent_desc="current"/>
+    <ENTITY id="7665" ent_desc="the U.S."/>
+    <ENTITY id="7679" ent_desc="starts with an adult Bobby Fischer -LRB- 1943-2008 -RRB- in a paranoid state , worried he is being spied upon by the Soviets"/>
+    <ENTITY id="7857" ent_desc="William Lombardy , a former World Junior Chess Champion who was a Catholic priest , as his second"/>
+    <ENTITY id="7883" ent_desc="collusion , which he feels makes it impossible for a non-Soviet player to win the championship"/>
+    <ENTITY id="7893" ent_desc="a Catholic priest"/>
+    <ENTITY id="7903" ent_desc="the tournament"/>
+    <ENTITY id="7913" ent_desc="his second"/>
+    <ENTITY id="7927" ent_desc="the historic World Chess Championship 1972 match"/>
+    <ENTITY id="7941" ent_desc="Fischer 's excessive demands , which leads Fischer back to winning tournaments"/>
+    <ENTITY id="7951" ent_desc="someone coughing in the audience , rolling cameras , or the pawns on the chess board , which leads him to make extreme demands for silence and fewer distractions"/>
+    <ENTITY id="7965" ent_desc="rolling cameras , or the pawns on the chess board , which leads him to make extreme demands for silence and fewer distractions"/>
+    <ENTITY id="7975" ent_desc="the world of professional chess championships"/>
+    <ENTITY id="7993" ent_desc="Fischer towards psychosis"/>
+    <ENTITY id="8015" ent_desc="Game four"/>
+    <ENTITY id="8025" ent_desc="the chess board , which leads him to make extreme demands for silence and fewer distractions"/>
+    <ENTITY id="8035" ent_desc="His mother , a Russian immigrant , supports his general fears , telling him she thinks a socialist revolution could begin in the U.S. and that they are being spied upon ."/>
+    <ENTITY id="8057" ent_desc="a celebrity"/>
+    <ENTITY id="8067" ent_desc="the American public , which makes him overconfident"/>
+</Document>
+
+        
